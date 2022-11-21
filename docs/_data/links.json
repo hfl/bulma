@@ -38,7 +38,7 @@
     },
     "overview-customize": {
       "name": "定制",
-      "subtitle": "Create your <strong>own theme</strong> with a simple set of <strong>variables</strong>",
+      "subtitle": "通过一组简单的<strong>变量</strong>设置创建您<strong>自己的主题</strong>",
       "color": "purple",
       "icon": "paint-brush",
       "path": "/documentation/overview/customize/"
@@ -59,7 +59,7 @@
       "path": "/documentation/overview/modular/"
     },
     "overview-responsiveness": {
-      "name": "响应能力",
+      "name": "自适应",
       "subtitle": "Bulma 是<strong>移动设备优先</strong>的框架",
       "color": "primary",
       "icon": "arrows-alt-h",
@@ -67,14 +67,14 @@
     },
     "overview-variables": {
       "name": "变量",
-      "subtitle": "See how Bulma uses <strong>Sass variables</strong> to allow easy customization",
+      "subtitle": "查看 Bulma 如何使用 <strong>Sass 变量</strong>实现最简单的定制",
       "color": "grey",
       "icon": "cogs",
       "path": "/documentation/overview/variables/"
     },
     "overview-colors": {
       "name": "颜色",
-      "subtitle": "The <strong>colors</strong> that <strong>style</strong> most Bulma elements and components",
+      "subtitle": "<strong>颜色</strong>是用来<strong>个性化</strong>大多数 Bulma 元素和组件的",
       "color": "info",
       "icon": "tint",
       "path": "/documentation/overview/colors/"
@@ -88,7 +88,7 @@
     },
     "utilities-functions": {
       "name": "函数",
-      "subtitle": "Utility functions to calculate colors and other values",
+      "subtitle": "计算颜色和其他值的工具函数",
       "color": "orange",
       "icon": "code",
       "path": "/documentation/utilities/functions/"
