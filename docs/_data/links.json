@@ -1,121 +1,121 @@
 {
   "by_id": {
     "home": {
-      "name": "Home",
+      "name": "首页",
       "path": "/"
     },
     "documentation": {
-      "name": "Documentation",
-      "subtitle": "Everything you need to <strong>create a website</strong> with Bulma",
+      "name": "文档",
+      "subtitle": "您用 Bulma <strong>创建站点</strong>需要的所有知识",
       "path": "/documentation/"
     },
     "become-sponsor": {
-      "name": "Become a Bulma sponsor",
+      "name": "成为 Bulma 赞助商",
       "subtitle": "Sponsor Bulma and Open Source via <a href=\"https://www.patreon.com/jgthms\" target=\"_blank\">Patreon</a> and <a href=\"https://github.com/sponsors/jgthms\" target=\"_blank\">GitHub</a>",
       "path": "/become-a-bulma-sponsor/"
     },
     "bulma-book": {
-      "name": "The official Bulma book",
-      "title": "Book",
-      "subtitle": "A step-by-step guide that teaches you how to build a web interface from scratch using Bulma",
+      "name": "官方 Bulma 图书",
+      "title": "图书",
+      "subtitle": "教您如何用 Bulma 从零开始循序渐进构建一个网络应用界面",
       "icon": "bookmark",
       "color": "bleeding",
       "path": "/the-official-bulma-book/"
     },
     "overview": {
-      "name": "Overview",
-      "subtitle": "An overview of what Bulma as a <strong>framework</strong> is all about",
+      "name": "概览",
+      "subtitle": "Bulma 做为一个<strong>框架</strong>的全面概览",
       "color": "primary",
       "icon": "eye",
       "path": "/documentation/overview/"
     },
     "overview-start": {
-      "name": "Start",
-      "subtitle": "You only need <strong>1 CSS file</strong> to use Bulma",
+      "name": "起步",
+      "subtitle": "使用 Bulma 您仅需 <strong>1 个 CSS 文件</strong>",
       "color": "danger",
       "icon": "rocket",
       "path": "/documentation/overview/start/"
     },
     "overview-customize": {
-      "name": "Customize",
+      "name": "定制",
       "subtitle": "Create your <strong>own theme</strong> with a simple set of <strong>variables</strong>",
       "color": "purple",
       "icon": "paint-brush",
       "path": "/documentation/overview/customize/"
     },
     "overview-classes": {
-      "name": "CSS classes",
-      "subtitle": "Bulma is simply a <strong>collection</strong> of CSS classes. Write the HTML code you want.",
+      "name": "CSS 类",
+      "subtitle": "Bulma 就是一个简单的 CSS 类的<strong>集合</strong>。写 HTML 代码依然照旧。",
       "color": "link",
       "icon_brand": "true",
       "icon": "css3",
       "path": "/documentation/overview/classes/"
     },
     "overview-modular": {
-      "name": "Modularity",
-      "subtitle": "Just import what you <strong>need</strong>",
+      "name": "模块化",
+      "subtitle": "只需导入您<strong>需要的</strong>",
       "color": "success",
       "icon": "cubes",
       "path": "/documentation/overview/modular/"
     },
     "overview-responsiveness": {
-      "name": "Responsiveness",
-      "subtitle": "Bulma is a <strong>mobile-first</strong> framework",
+      "name": "响应能力",
+      "subtitle": "Bulma 是<strong>移动设备优先</strong>的框架",
       "color": "primary",
       "icon": "arrows-alt-h",
       "path": "/documentation/overview/responsiveness/"
     },
     "overview-variables": {
-      "name": "Variables",
+      "name": "变量",
       "subtitle": "See how Bulma uses <strong>Sass variables</strong> to allow easy customization",
       "color": "grey",
       "icon": "cogs",
       "path": "/documentation/overview/variables/"
     },
     "overview-colors": {
-      "name": "Colors",
+      "name": "颜色",
       "subtitle": "The <strong>colors</strong> that <strong>style</strong> most Bulma elements and components",
       "color": "info",
       "icon": "tint",
       "path": "/documentation/overview/colors/"
     },
     "utilities": {
-      "name": "Utilities",
-      "subtitle": "Sass tools used by Bulma and available for you",
+      "name": "工具",
+      "subtitle": "Bulma 使用 Sass 工具",
       "color": "primary",
       "icon": "tools",
       "path": "/documentation/utilities/"
     },
     "utilities-functions": {
-      "name": "Functions",
+      "name": "函数",
       "subtitle": "Utility functions to calculate colors and other values",
       "color": "orange",
       "icon": "code",
       "path": "/documentation/utilities/functions/"
     },
     "utilities-mixins": {
-      "name": "Mixins",
+      "name": "混入",
       "subtitle": "Utility mixins for custom elements and other CSS helpers",
       "color": "purple",
       "icon": "equals",
       "path": "/documentation/utilities/mixins/"
     },
     "utilities-responsive-mixins": {
-      "name": "Responsive mixins",
+      "name": "响应式混入",
       "subtitle": "Mixins that allows you to define different styles for each screen size",
       "color": "purple",
       "icon": "arrows-alt-h",
       "path": "/documentation/utilities/responsive-mixins/"
     },
     "utilities-extends": {
-      "name": "Extends",
+      "name": "扩展",
       "subtitle": "Sass extends to keep your CSS code DRY",
       "color": "purple",
       "icon": "percentage",
       "path": "/documentation/utilities/extends/"
     },
     "utilities-control-mixins": {
-      "name": "Form Control mixins",
+      "name": "表单控制混入",
       "subtitle": "Mixins for Bulma's buttons and form controls",
       "color": "purple",
       "icon": "hand-pointer",
@@ -123,36 +123,36 @@
       "path": "/documentation/utilities/control-mixins/"
     },
     "customize": {
-      "name": "Customize",
+      "name": "定制",
       "subtitle": "Create your <strong>own theme</strong> with a simple set of <strong>variables</strong>",
       "color": "purple",
       "icon": "paint-brush",
       "path": "/documentation/customize/"
     },
     "customize-concepts": {
-      "name": "Concepts",
+      "name": "概念",
       "subtitle": "What makes Bulma <strong>customizable</strong>",
       "color": "info",
       "icon": "lightbulb",
       "path": "/documentation/customize/concepts/"
     },
     "customize-variables": {
-      "name": "Variables",
+      "name": "变量",
       "subtitle": "See how Bulma uses <strong>Sass variables</strong> to allow easy customization",
       "color": "grey",
       "icon": "cogs",
       "path": "/documentation/customize/variables/"
     },
     "customize-node-sass": {
-      "name": "With node-sass",
-      "subtitle": "Use npm/yarn and node-sass",
+      "name": "使用 node-sass",
+      "subtitle": "使用 npm/yarn 和 node-sass",
       "color": "danger",
       "icon_brand": "true",
       "icon": "npm",
       "path": "/documentation/customize/with-node-sass/"
     },
     "customize-sass-cli": {
-      "name": "With Sass CLI",
+      "name": "使用 Sass CLI",
       "subtitle": "Use the Sass command line",
       "color": "purple",
       "icon_brand": "true",
@@ -160,7 +160,7 @@
       "path": "/documentation/customize/with-sass-cli/"
     },
     "customize-webpack": {
-      "name": "With webpack",
+      "name": "使用 webpack",
       "subtitle": "Use Bulma with webpack",
       "color": "warning",
       "icon_brand": "true",
@@ -168,154 +168,154 @@
       "path": "/documentation/customize/with-webpack/"
     },
     "modifiers": {
-      "name": "Modifiers",
+      "name": "修饰符",
       "subtitle": "An <strong>easy-to-read</strong> naming system designed for humans",
       "color": "grey",
       "icon": "cogs",
       "path": "/documentation/modifiers/"
     },
     "overview-modifiers": {
-      "name": "Modifiers syntax",
-      "subtitle": "Most Bulma elements have <strong>alternative</strong> styles. To apply them, you only need to append one of the <strong>modifier classes</strong>. They all start with <code>is-</code> or <code>has-</code>.",
+      "name": "修饰符语法",
+      "subtitle": "多数 Bulma 元素都有对应的<strong>替换</strong>样式。要使用它们，您只需添加一个<strong>修饰符类</strong>即可。它们都以 <code>is-</code> 或者 <code>has-</code> 开始。",
       "color": "orange",
       "icon": "code",
       "path": "/documentation/overview/modifiers/"
     },
     "modifiers-helpers": {
-      "name": "Helpers",
+      "name": "辅助",
       "subtitle": "Apply <strong>helper classes</strong> to almost any element, in order to alter its style",
       "color": "danger",
       "icon": "medkit",
       "path": "/documentation/modifiers/helpers/"
     },
     "modifiers-responsive-helpers": {
-      "name": "Responsive helpers",
+      "name": "响应辅助",
       "subtitle": "<strong>Show/hide content</strong> depending on the width of the viewport",
       "color": "primary",
       "icon": "arrows-alt-h",
       "path": "/documentation/modifiers/responsive-helpers/"
     },
     "modifiers-color-helpers": {
-      "name": "Color helpers",
+      "name": "颜色辅助",
       "subtitle": "Change the <strong>color</strong> of the text and/or background",
       "color": "info",
       "icon": "tint",
       "path": "/documentation/modifiers/color-helpers/"
     },
     "modifiers-typography-helpers": {
-      "name": "Typography helpers",
+      "name": "排版辅助",
       "subtitle": "Change the <strong>size</strong> and <strong>color</strong> of the text for one or multiple viewport width",
       "color": "grey-dark",
       "icon": "font",
       "path": "/documentation/modifiers/typography-helpers/"
     },
     "helpers": {
-      "name": "Helpers",
+      "name": "辅助",
       "subtitle": "Apply <strong>helper classes</strong> to almost any element, in order to alter their style",
       "color": "danger",
       "icon": "medkit",
       "path": "/documentation/helpers/"
     },
     "helpers-color": {
-      "name": "Color",
+      "name": "颜色",
       "subtitle": "Change the <strong>color</strong> of the text and/or background",
       "color": "info",
       "icon": "tint",
       "path": "/documentation/helpers/color-helpers/"
     },
     "helpers-typography": {
-      "name": "Typography",
+      "name": "排版",
       "subtitle": "Change the <strong>size</strong>, weight, and other font properties of the text",
       "color": "grey-dark",
       "icon": "font",
       "path": "/documentation/helpers/typography-helpers/"
     },
     "helpers-spacing": {
-      "name": "Spacing",
+      "name": "留白",
       "subtitle": "Change the <strong>size</strong> and <strong>color</strong> of the text for one or multiple viewport width",
       "color": "grey-dark",
       "icon": "arrows-alt-h",
       "path": "/documentation/helpers/spacing-helpers/"
     },
     "helpers-visibility": {
-      "name": "Visibility",
+      "name": "可视",
       "subtitle": "<strong>Show/hide content</strong> depending on the width of the viewport",
       "color": "primary",
       "icon": "eye",
       "path": "/documentation/helpers/visibility-helpers/"
     },
     "helpers-flexbox": {
-      "name": "Flexbox",
+      "name": "弹性盒子",
       "subtitle": "Helpers for all <strong>Flexbox</strong> properties",
       "color": "primary",
       "icon": "ellipsis-h",
       "path": "/documentation/helpers/flexbox-helpers/"
     },
     "helpers-other": {
-      "name": "Other",
+      "name": "其他",
       "subtitle": "Other useful Bulma helpers",
       "color": "primary",
       "icon": "medkit",
       "path": "/documentation/helpers/other-helpers/"
     },
     "columns": {
-      "name": "Columns",
+      "name": "列",
       "subtitle": "The power of <strong>Flexbox</strong> in a simple interface",
       "color": "star",
       "icon": "columns",
       "path": "/documentation/columns/"
     },
     "columns-basics": {
-      "name": "Basics",
+      "name": "基础",
       "subtitle": "A simple way to build <strong>responsive columns</strong>",
       "color": "star",
       "icon": "columns",
       "path": "/documentation/columns/basics/"
     },
     "columns-sizes": {
-      "name": "Sizes",
+      "name": "型号",
       "subtitle": "Define the <strong>size</strong> of each column <strong>individually</strong>",
       "color": "success",
       "icon": "expand-arrows-alt",
       "path": "/documentation/columns/sizes/"
     },
     "columns-responsiveness": {
-      "name": "Responsiveness",
+      "name": "响应",
       "subtitle": "Handle <strong>different</strong> column layouts for each <strong>breakpoint</strong>",
       "color": "primary",
       "icon": "arrows-alt-h",
       "path": "/documentation/columns/responsiveness/"
     },
     "columns-nesting": {
-      "name": "Nesting",
+      "name": "嵌套",
       "subtitle": "A simple way to build <strong>responsive columns</strong>",
       "color": "danger",
       "icon": "sitemap",
       "path": "/documentation/columns/nesting/"
     },
     "columns-gap": {
-      "name": "Gap",
+      "name": "间隙",
       "subtitle": "Customize the <strong>gap</strong> between the columns",
       "color": "info",
       "icon": "pause",
       "path": "/documentation/columns/gap/"
     },
     "columns-options": {
-      "name": "Options",
+      "name": "参数",
       "subtitle": "Design different <strong>types</strong> of column layouts",
       "color": "grey",
       "icon": "cogs",
       "path": "/documentation/columns/options/"
     },
     "layout": {
-      "name": "Layout",
+      "name": "布局",
       "subtitle": "Design the <strong>structure</strong> of your webpage with these CSS classes",
       "color": "success",
       "icon": "warehouse",
       "path": "/documentation/layout/"
     },
     "layout-container": {
-      "name": "Container",
+      "name": "容器",
       "subtitle": "A simple <strong>container</strong> to center your content horizontally",
       "path": "/documentation/layout/container/",
       "icon": "arrows-alt-h"
@@ -327,7 +327,7 @@
       "icon": "ruler-horizontal"
     },
     "layout-media": {
-      "name": "Media Object",
+      "name": "多媒体对象",
       "subtitle": "The famous <strong>media object</strong> prevalent in social media interfaces, but useful in any context",
       "path": "/documentation/layout/media-object/",
       "icon": "th-list"
@@ -357,7 +357,7 @@
       "icon": "th"
     },
     "form": {
-      "name": "Form",
+      "name": "表单",
       "subtitle": "The indispensable <strong>form controls</strong>, designed for maximum clarity",
       "color": "link",
       "icon_brand": "true",
@@ -415,7 +415,7 @@
       "path": "/documentation/form/file/"
     },
     "elements": {
-      "name": "Elements",
+      "name": "元素",
       "subtitle": "Essential interface elements that only require a <strong>single CSS class</strong>",
       "color": "orange",
       "icon": "cube",
@@ -508,7 +508,7 @@
       "path": "/documentation/elements/title/"
     },
     "components": {
-      "name": "Components",
+      "name": "组件",
       "subtitle": "Advanced multi-part components with lots of possibilities",
       "color": "danger",
       "icon": "cubes",
@@ -586,61 +586,61 @@
       "path": "/documentation/components/tabs/"
     },
     "videos": {
-      "name": "Videos",
+      "name": "视频",
       "color": "success",
       "icon": "play-circle",
-      "title": "Videos",
+      "title": "视频",
       "path": "/videos/"
     },
     "blog": {
-      "name": "Blog",
-      "title": "Blog",
-      "subtitle": "Stay updated with new features",
+      "name": "博客",
+      "title": "博客",
+      "subtitle": "有新功能必更新",
       "color": "rss",
       "icon": "rss",
       "path": "/blog/"
     },
     "brand": {
       "name": "Brand",
-      "title": "Brand",
-      "subtitle": "The official Bulma logos",
+      "title": "标牌",
+      "subtitle": "官方 Bulma 标志",
       "color": "primary",
       "icon": "medal",
       "path": "/brand/"
     },
     "expo": {
-      "name": "Expo",
-      "title": "Expo",
-      "subtitle": "Official Bulma showcase",
+      "name": "展览",
+      "title": "展览",
+      "subtitle": "官方 Bulma 展位",
       "icon": "star",
       "color": "expo",
       "path": "/expo/"
     },
     "love": {
-      "name": "Love",
-      "title": "Love",
-      "subtitle": "Fans of Bulma around the world",
+      "name": "挚爱",
+      "title": "挚爱",
+      "subtitle": "来自世界各地的 Bulma 粉丝",
       "color": "love",
       "icon": "heart",
       "path": "/love/"
     },
     "backers": {
       "id": "backers",
-      "name": "Backers",
-      "title": "Backers",
+      "name": "支持者",
+      "title": "支持者",
       "color": "patreon",
       "icon": "patreon",
       "path": "/backers/",
       "icon_brand": true,
-      "subtitle": "Everyone who is supporting Bulma via Patreon and GitHub",
-      "description": "Everyone who is supporting Bulma"
+      "subtitle": "每个支持 Bulma 的赞助商和 GitHub",
+      "description": "每个支持 Bulma 的人"
     },
     "more": {
-      "name": "More",
+      "name": "更多",
       "path": "/more/"
     },
     "bulma-start": {
-      "name": "Bulma start",
+      "name": "Bulma 起步",
       "title": "Start",
       "subtitle": "A tiny npm package to get started",
       "icon": "rocket",
@@ -648,7 +648,7 @@
       "path": "/bulma-start/"
     },
     "made-with-bulma": {
-      "name": "Made with Bulma",
+      "name": "Bulma 制造",
       "title": "Badge",
       "subtitle": "The official community badge",
       "icon": "certificate",
@@ -656,23 +656,23 @@
       "path": "/made-with-bulma/"
     },
     "bootstrap": {
-      "name": "Coming from Bootstrap",
-      "subtitle": "See how Bulma is an alternative to Bootstrap",
+      "name": "来自 Bootstrap 的用户",
+      "subtitle": "看看 Bulma 如何替代 Bootstrap",
       "icon": "exchange-alt",
       "color": "bootstrap",
       "path": "/alternative-to-bootstrap/"
     },
     "patreon-backers": {
-      "name": "Patreon and GitHub backers",
-      "subtitle": "Everyone who is supporting Bulma",
+      "name": "用户和 GitHub 支持者",
+      "subtitle": "每个支持 Bulma 的人",
       "icon_brand": "true",
       "icon": "patreon",
       "color": "patreon",
       "path": "/backers/"
     },
     "extensions": {
-      "name": "Bulma extensions",
-      "title": "Extensions",
+      "name": "Bulma 扩展",
+      "title": "扩展",
       "subtitle": "Side projects to enhance Bulma",
       "icon": "plug",
       "color": "extensions",

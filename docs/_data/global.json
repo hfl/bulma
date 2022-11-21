@@ -5,28 +5,28 @@
       "color": "has-text-success",
       "fa_type": "fas",
       "fa_icon": "fa-play-circle",
-      "title": "Videos"
+      "title": "视频"
     },
     {
       "id": "expo",
       "color": "has-text-star",
       "fa_type": "fas",
       "fa_icon": "fa-star",
-      "title": "Expo"
+      "title": "展示"
     },
     {
       "id": "love",
       "color": "has-text-danger",
       "fa_type": "fas",
       "fa_icon": "fa-heart",
-      "title": "Love"
+      "title": "挚爱"
     },
     {
       "id": "blog",
       "color": "bd-has-text-rss",
       "fa_type": "fas",
       "fa_icon": "fa-rss",
-      "title": "Blog"
+      "title": "博客"
     }
   ],
   "other_items": [
@@ -35,14 +35,14 @@
       "color": "has-text-info",
       "fa_type": "fas",
       "fa_icon": "fa-code",
-      "title": "Templates"
+      "title": "模板"
     },
     {
       "id": "recipes",
       "color": "has-text-purple",
       "fa_type": "fas",
       "fa_icon": "fa-utensils",
-      "title": "Recipes"
+      "title": "菜谱"
     },
   ],
   "more_items": [
@@ -51,7 +51,7 @@
       "color": "success",
       "fa_type": "fas",
       "fa_icon": "fa-rocket",
-      "title": "Bulma start",
+      "title": "Bulma 起步",
       "description": "A tiny npm package to get started"
     },
     {
@@ -59,7 +59,7 @@
       "color": "primary",
       "fa_type": "fas",
       "fa_icon": "fa-certificate",
-      "title": "Made with Bulma",
+      "title": "Bulma 制造",
       "description": "The official community badge"
     },
     {
@@ -67,7 +67,7 @@
       "color": "bootstrap",
       "fa_type": "fas",
       "fa_icon": "fa-exchange-alt",
-      "title": "Coming from Bootstrap",
+      "title": "来自 Bootstrap 的老铁",
       "description": "See how Bulma is an alternative to Bootstrap"
     },
     {
@@ -83,7 +83,7 @@
       "color": "danger",
       "fa_type": "fas",
       "fa_icon": "fa-plug",
-      "title": "Extensions",
+      "title": "扩展",
       "description": "Side projects to enhance Bulma",
     }
   ]
