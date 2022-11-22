@@ -101,7 +101,7 @@
       "path": "/documentation/utilities/mixins/"
     },
     "utilities-responsive-mixins": {
-      "name": "响应式混入",
+      "name": "自适应混入",
       "subtitle": "Mixins that allows you to define different styles for each screen size",
       "color": "purple",
       "icon": "arrows-alt-h",
@@ -189,7 +189,7 @@
       "path": "/documentation/modifiers/helpers/"
     },
     "modifiers-responsive-helpers": {
-      "name": "响应辅助",
+      "name": "自适应辅助",
       "subtitle": "<strong>Show/hide content</strong> depending on the width of the viewport",
       "color": "primary",
       "icon": "arrows-alt-h",
@@ -245,7 +245,7 @@
       "path": "/documentation/helpers/visibility-helpers/"
     },
     "helpers-flexbox": {
-      "name": "弹性盒子",
+      "name": "FlexBox",
       "subtitle": "Helpers for all <strong>Flexbox</strong> properties",
       "color": "primary",
       "icon": "ellipsis-h",
@@ -253,56 +253,56 @@
     },
     "helpers-other": {
       "name": "其他",
-      "subtitle": "Other useful Bulma helpers",
+      "subtitle": "其他有用的 Bulma 辅助",
       "color": "primary",
       "icon": "medkit",
       "path": "/documentation/helpers/other-helpers/"
     },
     "columns": {
       "name": "列",
-      "subtitle": "The power of <strong>Flexbox</strong> in a simple interface",
+      "subtitle": "只需简单操作，就可拥有 <strong>Flexbox</strong> 能力",
       "color": "star",
       "icon": "columns",
       "path": "/documentation/columns/"
     },
     "columns-basics": {
       "name": "基础",
-      "subtitle": "A simple way to build <strong>responsive columns</strong>",
+      "subtitle": "简单方式构建<strong>自适应列</strong>",
       "color": "star",
       "icon": "columns",
       "path": "/documentation/columns/basics/"
     },
     "columns-sizes": {
-      "name": "型号",
-      "subtitle": "Define the <strong>size</strong> of each column <strong>individually</strong>",
+      "name": "宽度",
+      "subtitle": "为每一个列<strong>单独</strong>定义<strong>宽度</strong>",
       "color": "success",
       "icon": "expand-arrows-alt",
       "path": "/documentation/columns/sizes/"
     },
     "columns-responsiveness": {
-      "name": "响应",
-      "subtitle": "Handle <strong>different</strong> column layouts for each <strong>breakpoint</strong>",
+      "name": "自适应",
+      "subtitle": "为每个<strong>断点</strong>应用<strong>不同</strong>列布局",
       "color": "primary",
       "icon": "arrows-alt-h",
       "path": "/documentation/columns/responsiveness/"
     },
     "columns-nesting": {
       "name": "嵌套",
-      "subtitle": "A simple way to build <strong>responsive columns</strong>",
+      "subtitle": "构建<strong>自适应列</strong>的简单方式",
       "color": "danger",
       "icon": "sitemap",
       "path": "/documentation/columns/nesting/"
     },
     "columns-gap": {
       "name": "间隙",
-      "subtitle": "Customize the <strong>gap</strong> between the columns",
+      "subtitle": "定制列间的<strong>间隙（gap）</strong>",
       "color": "info",
       "icon": "pause",
       "path": "/documentation/columns/gap/"
     },
     "columns-options": {
       "name": "参数",
-      "subtitle": "Design different <strong>types</strong> of column layouts",
+      "subtitle": "设计不同<strong>类型</strong>的列布局",
       "color": "grey",
       "icon": "cogs",
       "path": "/documentation/columns/options/"

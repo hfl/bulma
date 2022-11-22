@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   npmClipboard.on('success', function(e) {
-    e.trigger.innerText = 'copied!';
+    e.trigger.innerText = '已复制！';
     e.trigger.classList.add('is-success');
     setTimeout(() => {
       e.trigger.innerText = 'copy';
@@ -24,10 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   npmClipboard.on('error', function(e) {
-    e.trigger.innerText = 'error!';
+    e.trigger.innerText = '错误！';
     e.trigger.classList.add('is-error');
     setTimeout(() => {
-      e.trigger.innerText = 'copy';
+      e.trigger.innerText = '复制';
       e.trigger.classList.remove('is-error');
     }, 500);
   });

@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
-    const back_to_top_el = createAnchorLink('Back to top', '');
+    const back_to_top_el = createAnchorLink('返回顶部', '');
     back_to_top_el.onclick = scrollToTop;
     anchors_el_list.appendChild(back_to_top_el);
   }
