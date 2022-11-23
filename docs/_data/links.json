@@ -416,21 +416,21 @@
     },
     "elements": {
       "name": "元素",
-      "subtitle": "Essential interface elements that only require a <strong>single CSS class</strong>",
+      "subtitle": "必备界面元素仅需一个 <strong>单 CSS 类</strong>",
       "color": "orange",
       "icon": "cube",
       "path": "/documentation/elements/"
     },
     "elements-block": {
       "name": "Block",
-      "subtitle": "Bulma's most basic spacer <strong>block</strong>",
+      "subtitle": "Bulma 最基本的间隔 <strong>block</strong>",
       "color": "grey",
       "icon": "arrows-alt-v",
       "path": "/documentation/elements/block/"
     },
     "elements-box": {
       "name": "Box",
-      "subtitle": "A white <strong>box</strong> to contain other elements",
+      "subtitle": "一个白 <strong>box</strong>，包含所有",
       "color": "grey",
       "icon": "square",
       "icon_regular": "true",
@@ -438,7 +438,7 @@
     },
     "elements-button": {
       "name": "Button",
-      "subtitle": "The classic <strong>button</strong>, in different colors, sizes, and states",
+      "subtitle": "具有了各种颜色、尺寸和状态的 <strong>button</strong>",
       "color": "success",
       "icon": "hand-pointer",
       "icon_regular": "true",
@@ -642,7 +642,7 @@
     "bulma-start": {
       "name": "Bulma 起步",
       "title": "Start",
-      "subtitle": "A tiny npm package to get started",
+      "subtitle": "起步的小 npm 包",
       "icon": "rocket",
       "color": "success",
       "path": "/bulma-start/"
@@ -650,7 +650,7 @@
     "made-with-bulma": {
       "name": "Bulma 制造",
       "title": "Badge",
-      "subtitle": "The official community badge",
+      "subtitle": "官方社区推荐徽章",
       "icon": "certificate",
       "color": "warning",
       "path": "/made-with-bulma/"
@@ -673,7 +673,7 @@
     "extensions": {
       "name": "Bulma 扩展",
       "title": "扩展",
-      "subtitle": "Side projects to enhance Bulma",
+      "subtitle": "扩展 Bulma 的相关项目",
       "icon": "plug",
       "color": "extensions",
       "path": "/extensions/"
