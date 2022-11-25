@@ -315,7 +315,7 @@
       "path": "/documentation/layout/"
     },
     "layout-container": {
-      "name": "容器",
+      "name": "Container",
       "subtitle": "A simple <strong>container</strong> to center your content horizontally",
       "path": "/documentation/layout/container/",
       "icon": "arrows-alt-h"
@@ -446,42 +446,42 @@
     },
     "elements-content": {
       "name": "Content",
-      "subtitle": "A single class to handle <strong>WYSIWYG</strong> generated content, where only <strong>HTML tags</strong> are available",
+      "subtitle": "一个处理 <strong>WYSIWYG</strong> 生成内容（仅含 <strong>HTML 标记</strong>）单独类",
       "color": "primary",
       "icon": "align-left",
       "path": "/documentation/elements/content/"
     },
     "elements-delete": {
       "name": "Delete",
-      "subtitle": "A versatile <strong>delete</strong> cross",
+      "subtitle": "一个多才多艺的 <strong>delete</strong> 十字",
       "color": "danger",
       "icon": "times-circle",
       "path": "/documentation/elements/delete/"
     },
     "elements-icon": {
       "name": "Icon",
-      "subtitle": "Compatible with all icon font libraries, including <strong>Font Awesome 5</strong>",
+      "subtitle": "与所有图标字体库兼容，包括 <strong>Font Awesome 5</strong>",
       "icon": "font-awesome",
       "icon_brand": "true",
       "path": "/documentation/elements/icon/"
     },
     "elements-image": {
       "name": "Image",
-      "subtitle": "A container for <strong>responsive images</strong>",
+      "subtitle": "一个<strong>自适应图像</strong>容器",
       "color": "purple",
       "icon": "image",
       "path": "/documentation/elements/image/"
     },
     "elements-notification": {
       "name": "Notification",
-      "subtitle": "Bold <strong>notification</strong> blocks, to alert your users of something",
+      "subtitle": "大块<strong>通知</strong>提醒您的用户的事情",
       "color": "orange",
       "icon": "exclamation-triangle",
       "path": "/documentation/elements/notification/"
     },
     "elements-progress": {
       "name": "Progress bars",
-      "subtitle": "Native HTML <strong>progress</strong> bars",
+      "subtitle": "原生 HTML <strong>进度</strong>条",
       "color": "warning",
       "icon": "spinner",
       "path": "/documentation/elements/progress/"
@@ -495,7 +495,7 @@
     },
     "elements-tag": {
       "name": "Tag",
-      "subtitle": "Small <strong>tag labels</strong> to insert anywhere",
+      "subtitle": "小 <strong>tag 标签</strong>随处插",
       "color": "success",
       "icon": "tag",
       "path": "/documentation/elements/tag/"

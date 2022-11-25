@@ -849,7 +849,7 @@ meta:
   <div class="column">
     <div class="content">
       <p>
-        You can create a <strong>list of buttons</strong> by using the <code>buttons</code> container.
+        您可以通过使用 <code>buttons</code> 修饰符创建 <strong>Button 列表</strong>。
       </p>
     </div>
     <div class="bd-example">
@@ -865,7 +865,7 @@ meta:
   <div class="column">
     <div class="content">
       <p>
-        If the list is <strong>very long</strong>, it will automatically wrap on <strong>multiple lines</strong>, while keeping all buttons <strong>evenly spaced</strong>.
+        如果列表<strong>很长</strong>，它会自动使用<strong>多行</strong>进行包裹，从而保证所有 button <strong>合理布局</strong>。
       </p>
     </div>
     <div class="bd-example">
@@ -881,7 +881,7 @@ meta:
   <div class="column">
     <div class="content">
       <p>
-        You can <strong>attach buttons together</strong> with the <code>has-addons</code> modifier.
+        您可以将  <code>has-addons</code> 修饰符<strong>连同 buttons 修饰符一起</strong>使用。
       </p>
     </div>
     <div class="bd-example">
@@ -897,7 +897,7 @@ meta:
   <div class="column">
     <div class="content">
       <p>
-        Use the <code>is-centered</code> or the <code>is-right</code> modifiers to alter the <strong>alignment</strong>.
+        使用 <code>is-centered</code> 或 <code>is-right</code> 修饰符调整<strong>对齐方式</strong>。
       </p>
     </div>
     <div class="bd-example">
@@ -914,7 +914,7 @@ meta:
   <div class="column">
     <div class="content">
       <p>
-        You can use any <strong>modifier</strong> class on each button to differentiate them. Make sure to add the <code>is-selected</code> modifier as well to make sure the selected button is <em>above</em> its siblings.
+        您可以在每一个 Button 上使用任何<strong>修饰符</strong>类来美化它们。要确保添加 <code>is-selected</code> 修饰符到那个需要看起来要<em>高于</em>其它相邻 Button 的元素之上。
       </p>
     </div>
     <div class="bd-example">
@@ -928,32 +928,32 @@ meta:
 
 <div class="message is-info">
   <div class="message-header">
-    <p>Difference between <a href="{{ site.url }}/documentation/form/general/#form-group">form groups</a> and <strong>list of buttons</strong></p>
+    <p><a href="{{ site.url }}/documentation/form/general/#form-group">表单组</a>和 <strong>Button 列表</strong>的区别</p>
   </div>
   <div class="message-body">
     <div class="content">
       <p>
-        While this list of buttons style can be achieved with either <code>field is-grouped</code> or the new <code>buttons</code> class, there are a few differences:
+        这个 Button 列表样式可认为是 <code>field is-grouped</code> 的一种或者是新 <code>buttons</code> 类，差别很小：
       </p>
       <ul>
         <li>
-          <code>buttons</code> has a <strong>simpler markup</strong>
+          <code>buttons</code> <strong>简化了标记</strong>
         </li>
         <li>
-          <code>buttons</code> can only contain <code>button</code> elements
+          <code>buttons</code> 可以只包含 <code>button</code> 元素
         </li>
         <li>
-          <code>field is-grouped</code> can contain <em>any</em> type of <code>control</code> inputs
+          <code>field is-grouped</code> 可以包含<em>任何</em>类型<code>控制</code>输入元素
         </li>
         <li>
-          <code>field is-grouped</code> can be forced to fit all controls on a <strong>single line</strong>
+          <code>field is-grouped</code> 可强制所有控制元素到<strong>一行</strong>之内
         </li>
         <li>
-          with <code>field is-grouped</code> you can <strong>expand</strong> one of the controls
+          使用 <code>field is-grouped</code> 您可以 <strong>expand</strong> 控制
         </li>
       </ul>
       <p>
-        Basically, if you only want a list of <em>buttons</em>, using <code>buttons</code> is recommended. If you need more control on the styling and the elements, use a <a href="{{ site.url }}/documentation/form/general/#form-group">form group</a>.
+        总之，如果您想要一个 <em>button</em> 列表，就推荐使用 <code>buttons</code>。如果您需要更多的控制定制和元素，就是用 <a href="{{ site.url }}/documentation/form/general/#form-group">表单组</a>。
       </p>
     </div>
   </div>
