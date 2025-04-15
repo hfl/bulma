@@ -7,8 +7,8 @@
     },
     "docs": {
       "name": "Docs",
-      "long_name": "Documentation",
-      "subtitle": "Everything you need to <strong>create a website</strong> with Bulma",
+      "long_name": "文档",
+      "subtitle": "<strong>创建一个网站</strong>您只需要 Bulma",
       "color": "primary",
       "icon": "fa-solid fa-book",
       "path": "/documentation/"
