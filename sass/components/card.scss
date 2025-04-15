@@ -57,7 +57,7 @@ $card-media-margin: cv.getVar("block-spacing") !default;
   border-radius: cv.getVar("card-radius");
   box-shadow: cv.getVar("card-shadow");
   color: cv.getVar("card-color");
-  max-width: 100%;
+  max-inline-size: 100%;
   position: relative;
 }
 
@@ -157,6 +157,6 @@ $card-media-margin: cv.getVar("block-spacing") !default;
 
 .#{iv.$class-prefix}card {
   .#{iv.$class-prefix}media:not(:last-child) {
-    margin-bottom: cv.getVar("card-media-margin");
+    margin-block-end: cv.getVar("card-media-margin");
   }
 }

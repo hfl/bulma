@@ -33,6 +33,6 @@ $section-padding-large: 18rem 6rem !default;
   }
 
   &.#{iv.$class-prefix}is-fullheight {
-    min-height: 100vh;
+    min-block-size: 100vh;
   }
 }

@@ -30,10 +30,10 @@ $progress-colors: dv.$colors !default;
   border: none;
   border-radius: cv.getVar("progress-border-radius");
   display: block;
-  height: cv.getVar("size-normal");
+  block-size: cv.getVar("size-normal");
   overflow: hidden;
   padding: 0;
-  width: 100%;
+  inline-size: 100%;
 
   &::-webkit-progress-bar {
     background-color: cv.getVar("progress-bar-background-color");
@@ -92,15 +92,15 @@ $progress-colors: dv.$colors !default;
 
   // Sizes
   &.#{iv.$class-prefix}is-small {
-    height: cv.getVar("size-small");
+    block-size: cv.getVar("size-small");
   }
 
   &.#{iv.$class-prefix}is-medium {
-    height: cv.getVar("size-medium");
+    block-size: cv.getVar("size-medium");
   }
 
   &.#{iv.$class-prefix}is-large {
-    height: cv.getVar("size-large");
+    block-size: cv.getVar("size-large");
   }
 }
 

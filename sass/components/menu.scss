@@ -100,8 +100,8 @@ $menu-label-spacing: 1em !default;
     );
     display: block;
     padding: cv.getVar("menu-list-link-padding");
-    text-align: left;
-    width: 100%;
+    text-align: start;
+    inline-size: 100%;
 
     &:hover {
       @include cv.register-vars(
@@ -156,10 +156,10 @@ $menu-label-spacing: 1em !default;
   text-transform: uppercase;
 
   &:not(:first-child) {
-    margin-top: cv.getVar("menu-label-spacing");
+    margin-block-start: cv.getVar("menu-label-spacing");
   }
 
   &:not(:last-child) {
-    margin-bottom: cv.getVar("menu-label-spacing");
+    margin-block-end: cv.getVar("menu-label-spacing");
   }
 }

@@ -12,8 +12,8 @@ $dimensions: 16 24 32 48 64 96 128 !default;
 
   img {
     display: block;
-    height: auto;
-    width: 100%;
+    block-size: auto;
+    inline-size: 100%;
 
     &.#{iv.$class-prefix}is-rounded {
       border-radius: cv.getVar("radius-rounded");
@@ -21,7 +21,7 @@ $dimensions: 16 24 32 48 64 96 128 !default;
   }
 
   &.#{iv.$class-prefix}is-fullwidth {
-    width: 100%;
+    inline-size: 100%;
   }
 
   // Ratio
@@ -29,8 +29,8 @@ $dimensions: 16 24 32 48 64 96 128 !default;
     img,
     .#{iv.$class-prefix}has-ratio {
       @include mx.overlay;
-      height: 100%;
-      width: 100%;
+      block-size: 100%;
+      inline-size: 100%;
     }
   }
 
@@ -48,8 +48,8 @@ $dimensions: 16 24 32 48 64 96 128 !default;
       img,
       .#{iv.$class-prefix}has-ratio {
         @include mx.overlay;
-        height: 100%;
-        width: 100%;
+        block-size: 100%;
+        inline-size: 100%;
       }
     }
   }
@@ -57,8 +57,8 @@ $dimensions: 16 24 32 48 64 96 128 !default;
   // Sizes
   @each $dimension in $dimensions {
     &.#{iv.$class-prefix}is-#{$dimension}x#{$dimension} {
-      height: $dimension * 1px;
-      width: $dimension * 1px;
+      block-size: $dimension * 1px;
+      inline-size: $dimension * 1px;
     }
   }
 }

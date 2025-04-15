@@ -25,25 +25,25 @@ $icon-text-spacing: 0.25em !default;
   display: inline-flex;
   flex-shrink: 0;
   justify-content: center;
-  height: cv.getVar("icon-dimensions");
+  block-size: cv.getVar("icon-dimensions");
   transition-duration: cv.getVar("duration");
   transition-property: color;
-  width: cv.getVar("icon-dimensions");
+  inline-size: cv.getVar("icon-dimensions");
 
   // Sizes
   &.#{iv.$class-prefix}is-small {
-    height: cv.getVar("icon-dimensions-small");
-    width: cv.getVar("icon-dimensions-small");
+    block-size: cv.getVar("icon-dimensions-small");
+    inline-size: cv.getVar("icon-dimensions-small");
   }
 
   &.#{iv.$class-prefix}is-medium {
-    height: cv.getVar("icon-dimensions-medium");
-    width: cv.getVar("icon-dimensions-medium");
+    block-size: cv.getVar("icon-dimensions-medium");
+    inline-size: cv.getVar("icon-dimensions-medium");
   }
 
   &.#{iv.$class-prefix}is-large {
-    height: cv.getVar("icon-dimensions-large");
-    width: cv.getVar("icon-dimensions-large");
+    block-size: cv.getVar("icon-dimensions-large");
+    inline-size: cv.getVar("icon-dimensions-large");
   }
 }
 

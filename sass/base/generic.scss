@@ -6,8 +6,8 @@ $body-size: 1em !default;
 $body-min-width: 300px !default;
 $body-rendering: optimizeLegibility !default;
 $body-family: cv.getVar("family-primary") !default;
-$body-overflow-x: hidden !default;
-$body-overflow-y: scroll !default;
+$body-overflow-x: scroll !default;
+$body-overflow-y: hidden !default;
 
 $body-color: cv.getVar("text") !default;
 $body-font-size: 1em !default;
@@ -68,7 +68,7 @@ html {
   font-size: cv.getVar("body-size");
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  min-width: cv.getVar("body-min-width");
+  min-inline-size: cv.getVar("body-min-width");
   overflow-x: cv.getVar("body-overflow-x");
   overflow-y: cv.getVar("body-overflow-y");
   text-rendering: cv.getVar("body-rendering");
@@ -165,13 +165,13 @@ hr {
   background-color: cv.getVar("hr-background-color");
   border: none;
   display: block;
-  height: cv.getVar("hr-height");
+  block-size: cv.getVar("hr-height");
   margin: cv.getVar("hr-margin");
 }
 
 img {
-  height: auto;
-  max-width: 100%;
+  block-size: auto;
+  max-inline-size: 100%;
 }
 
 input[type="checkbox"],
@@ -194,8 +194,8 @@ strong {
 }
 
 svg {
-  height: auto;
-  width: auto;
+  block-size: auto;
+  inline-size: auto;
 }
 
 // Block
