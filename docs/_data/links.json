@@ -217,14 +217,14 @@
       "path": "/documentation/features/skeletons/"
     },
     "features-smart-columns": {
-      "name": "Smart Columns",
+      "name": "智能 Columns",
       "subtitle": "The <strong>simplest</strong> column system",
       "color": "danger",
       "icon": "fa-solid fa-chart-simple fa-flip-vertical",
       "path": "/documentation/features/smart-columns/"
     },
     "features-smart-grid": {
-      "name": "Smart Grid",
+      "name": "智能 Grid",
       "subtitle": "A <strong>responsive 2D</strong> CSS Grid",
       "color": "danger",
       "icon": "fa-solid fa-grip",
@@ -238,22 +238,22 @@
       "path": "/documentation/features/themes/"
     },
     "sass": {
-      "name": "Sass Utilities",
-      "subtitle": "<strong>Sass tools</strong> used by Bulma and available for you",
+      "name": "Sass 工具",
+      "subtitle": "<strong>Sass 工具</strong>为 Bulma 和您提供",
       "color": "primary",
       "icon": "fa-brands fa-sass",
       "path": "/documentation/sass/"
     },
     "sass-extends": {
-      "name": "Extends",
-      "subtitle": "Sass extends to keep your <strong>CSS code DRY</strong>",
+      "name": "扩展",
+      "subtitle": "Sass 扩展来使您的 <strong>CSS 代码 DRY</strong>",
       "color": "sass",
       "icon": "fa-solid fa-percentage",
       "path": "/documentation/sass/extends/"
     },
     "sass-form-control-mixins": {
-      "name": "Form Control mixins",
-      "subtitle": "<strong>Mixins</strong> for Bulma's buttons and form controls",
+      "name": "表单控制混入",
+      "subtitle": "用于 Bulma 按钮和表单控制的 <strong>Mixins</strong>",
       "color": "sass",
       "icon": "fa-regular fa-hand-pointer",
       "path": "/documentation/sass/form-control-mixins/"
@@ -280,99 +280,99 @@
       "path": "/documentation/sass/responsive-mixins/"
     },
     "customize": {
-      "name": "Customize",
-      "subtitle": "Create your <strong>own theme</strong> with a simple set of <strong>variables</strong>",
+      "name": "定制",
+      "subtitle": "用一组简单的<strong>变量</strong>创建您<strong>自己的主题</strong>",
       "color": "sass",
       "icon": "fa-solid fa-paint-brush",
       "path": "/documentation/customize/"
     },
     "customize-concepts": {
-      "name": "Concepts",
-      "subtitle": "What makes Bulma <strong>customizable</strong>",
+      "name": "概念",
+      "subtitle": "什么使 Bulma <strong>可定制化</strong>",
       "color": "info",
       "icon": "fa-solid fa-lightbulb",
       "path": "/documentation/customize/concepts/"
     },
     "customize-with-sass": {
-      "name": "With Sass",
-      "subtitle": "Customize Bulma with Sass variables",
+      "name": "用 Sass",
+      "subtitle": "用 Sass 变量定制 Bulma",
       "color": "sass",
       "icon": "fa-brands fa-sass",
       "path": "/documentation/customize/with-sass/"
     },
     "customize-with-modular-sass": {
-      "name": "With Modular Sass",
-      "subtitle": "Import <strong>only</strong> what you need and <strong>customize</strong> it",
+      "name": "用模块化的 Sass",
+      "subtitle": "<strong>仅需</strong>导入所需即可<strong>定制</strong>",
       "color": "sass",
       "icon": "fa-solid fa-cubes",
       "path": "/documentation/customize/with-modular-sass/"
     },
     "customize-with-css-variables": {
-      "name": "With CSS Variables",
-      "subtitle": "See how Bulma uses <strong>Sass variables</strong> to allow easy customization",
+      "name": "用 CSS 变量",
+      "subtitle": "看 Bulma 如何用 <strong>Sass 变量</strong> 轻松定制",
       "color": "grey",
       "icon": "fa-brands fa-css3",
       "path": "/documentation/customize/with-css-variables/"
     },
     "customize-sass-list": {
-      "name": "List of Sass variables",
-      "subtitle": "All <strong>Sass</strong> variables defined by Bulma",
+      "name": "Sass 变量清单",
+      "subtitle": "Bulma 定义的所有 <strong>Sass</strong> 变量",
       "color": "grey",
       "icon": "fa-solid fa-list",
       "path": "/documentation/customize/list-of-sass-variables/"
     },
     "library": {
-      "name": "CSS Library",
-      "subtitle": "The core of the Bulma framework",
+      "name": "CSS 库",
+      "subtitle": "Bulma 框架核心",
       "color": "link",
       "icon": "fa-solid fa-cubes",
       "path": "/documentation/library/"
     },
     "columns": {
       "name": "Columns",
-      "subtitle": "The power of <strong>Flexbox</strong> in a simple interface",
+      "subtitle": "<strong>Flexbox</strong> 动力的简易接口",
       "color": "link",
       "icon": "fa-solid fa-columns",
       "path": "/documentation/columns/"
     },
     "columns-basics": {
-      "name": "Basics",
-      "subtitle": "A simple way to build <strong>responsive columns</strong>",
+      "name": "基础",
+      "subtitle": "构建 <strong>自适应 columns</strong> 的基本操作",
       "color": "link",
       "icon": "fa-solid fa-columns",
       "path": "/documentation/columns/basics/"
     },
     "columns-sizes": {
-      "name": "Sizes",
-      "subtitle": "Define the <strong>size</strong> of each column <strong>individually</strong>",
+      "name": "Size",
+      "subtitle": "<strong>单独</strong>定义每个 column 的 <strong>size</strong>",
       "color": "success",
       "icon": "fa-solid fa-up-right-and-down-left-from-center",
       "path": "/documentation/columns/sizes/"
     },
     "columns-responsiveness": {
-      "name": "Responsiveness",
-      "subtitle": "Handle <strong>different</strong> column layouts for each <strong>breakpoint</strong>",
+      "name": "自适应",
+      "subtitle": "为每个<strong>断点</strong>处理<strong>不同的</strong> column",
       "color": "primary",
       "icon": "fa-solid fa-arrows-left-right",
       "path": "/documentation/columns/responsiveness/"
     },
     "columns-nesting": {
-      "name": "Nesting",
-      "subtitle": "A simple way to build <strong>responsive columns</strong>",
+      "name": "嵌套",
+      "subtitle": "构建<strong>自适应 columns</strong>的简易方式",
       "color": "danger",
       "icon": "fa-solid fa-sitemap",
       "path": "/documentation/columns/nesting/"
     },
     "columns-gap": {
       "name": "Gap",
-      "subtitle": "Customize the <strong>gap</strong> between the columns",
+      "subtitle": "定义 columns 之间的 <strong>gap</strong>",
       "color": "info",
       "icon": "fa-solid fa-arrows-left-right-to-line",
       "path": "/documentation/columns/gap/"
     },
     "columns-options": {
-      "name": "Options",
-      "subtitle": "Design different <strong>types</strong> of column layouts",
+      "name": "选项",
+      "subtitle": "设计不同<strong>类型types</strong>的 column 布局",
       "color": "grey",
       "icon": "fa-solid fa-cogs",
       "path": "/documentation/columns/options/"
@@ -384,45 +384,45 @@
       "path": "/documentation/grid/"
     },
     "grid-smart": {
-      "name": "Smart Grid",
-      "subtitle": "A <strong>smart</strong> 2D grid with <strong>flexible</strong> columns",
+      "name": "智能 Grid",
+      "subtitle": "使用 <strong>flexible</strong> columns 的一个<strong>智能</strong> 2D Grid",
       "icon": "fa-solid fa-lightbulb",
       "path": "/documentation/grid/smart-grid/"
     },
     "grid-fixed": {
       "name": "Fixed Grid",
-      "subtitle": "A customizable 2D <strong>fixed</strong> grid",
+      "subtitle": "一个可定制的 2D <strong>Fixed</strong> Grid",
       "icon": "fa-solid fa-grip",
       "path": "/documentation/grid/fixed-grid/"
     },
     "grid-cells": {
-      "name": "Grid Cells",
-      "subtitle": "Adjust the width and height of each <strong>individual cell</strong>",
+      "name": "Grid 单元",
+      "subtitle": "调整每个<strong>独立单元</strong>的宽度和高度",
       "icon": "fa-solid fa-square",
       "path": "/documentation/grid/grid-cells/"
     },
     "grid-playground": {
-      "name": "Playground",
-      "subtitle": "<strong>Try out</strong> the Bulma 2D Grid",
+      "name": "操练场",
+      "subtitle": "<strong>试验</strong> Bulma 2D Grid",
       "icon": "fa-solid fa-code",
       "path": "/documentation/grid/playground/"
     },
     "layout": {
-      "name": "Layout",
-      "subtitle": "Design the <strong>structure</strong> of your webpage with these CSS classes",
+      "name": "布局",
+      "subtitle": "用 CSS 类设计您的网页<strong>结构</strong>",
       "color": "success",
       "icon": "fa-solid fa-border-none",
       "path": "/documentation/layout/"
     },
     "layout-container": {
       "name": "Container",
-      "subtitle": "A simple <strong>container</strong> to center your content horizontally",
+      "subtitle": "一个简单的 <strong>container</strong> 将水平居中您的内容",
       "path": "/documentation/layout/container/",
       "icon": "fa-solid fa-arrows-alt-h"
     },
     "layout-level": {
       "name": "Level",
-      "subtitle": "A multi-purpose <strong>horizontal level</strong>, which can contain almost any other element",
+      "subtitle": "一个多用途<strong>水平 Level</strong>可以包含任何其它元素",
       "path": "/documentation/layout/level/",
       "icon": "fa-solid fa-ruler-horizontal"
     },
