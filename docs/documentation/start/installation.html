@@ -1,9 +1,9 @@
 ---
-title: How to install Bulma
+title: 如何安装 Bulma
 layout: docs
 theme: start
-doc-tab: start
-doc-subtab: installation
+doc-tab: 起步
+doc-subtab: 安装
 breadcrumb:
   - home
   - documentation
@@ -49,20 +49,20 @@ site.data.meta.version }}/css/bulma-rtl.min.css";{% endhighlight %}
       </div>
 
       <div class="media-content">
-        <p class="title is-4">Get the Bulma <strong>CSS</strong> file</p>
-        <p class="subtitle">A single <code>.css</code> file that includes all of Bulma</p>
+        <p class="title is-4">获取 Bulma <strong>CSS</strong> 文件</p>
+        <p class="subtitle">单一 <code>.css</code> 文件已经包含了所有 Bulma 框架的代码</p>
       </div>
     </div>
 
     <div class="bd-option-item">
       <p class="bd-option-title block has-text-grey-light is-size-5">
-        <span class="button bd-fat-button is-success is-light is-pulled-right">Recommended</span>
-        Option 1. <strong>Use a CDN</strong>
+        <span class="button bd-fat-button is-success is-light is-pulled-right">推荐</span>
+        选择 1. <strong>使用 CDN</strong>
       </p>
 
       <p class="block">
-        You can import the CSS file directly from
-        <a href="{{ site.data.meta.jsdelivr }}" target="_blank">jsDelivr</a>:
+        您可以直接从
+        <a href="{{ site.data.meta.jsdelivr }}" target="_blank">jsDelivr</a> 导入 CSS 文件：
       </p>
 
       {%
@@ -72,33 +72,33 @@ site.data.meta.version }}/css/bulma-rtl.min.css";{% endhighlight %}
       %}
 
       <p class="block">
-        Since the release of v1, the main version also works in <strong>RTL contexts</strong>, thanks to the use of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values">logical properties</a>. As a result, no separate RTL version of Bulma is developed anymore.
+        从 v1 版本开始，主版本对于 <strong>RTL 内容</strong>也可以正常工作，特别感谢<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values">逻辑属性</a>的使用。因此，不需要从 Bulma 分离单独的 RTL 版本出来再开发。
       </p>
 
       <p class="block">
-        Bulma is also available via
-        <a href="{{ site.data.meta.cdnjs }}" target="_blank">cdnjs</a>.
+        Bulma 也可以通过
+        <a href="{{ site.data.meta.cdnjs }}" target="_blank">cdnjs</a> 获取。
       </p>
     </div>
 
     <div class="bd-option-item">
       <p class="bd-option-title block has-text-grey-light is-size-5">
-        Option 2. <strong>Download the Github release</strong>
+        选择 2. <strong>下载 Github 发布版本</strong>
       </p>
 
-      <div class="block">You can get the latest Bulma release as a <code>.zip</code> from GitHub:</div>
+      <div class="block">您可以从 GibHub 获取最新 Bulma 版本的 <code>.zip</code> 压缩包：</div>
 
       <a
         class="button bd-fat-button is-primary is-light"
         href="{{ site.data.meta.download }}"
       >
-        Download v{{ site.data.meta.version }}
+        下载 v{{ site.data.meta.version }}
       </a>
     </div>
   </div>
 
   <div class="bd-option-or">
-    <p>Or</p>
+    <p>或者</p>
   </div>
 
   <div class="bd-option bd-theme-sass">
@@ -110,20 +110,20 @@ site.data.meta.version }}/css/bulma-rtl.min.css";{% endhighlight %}
       </div>
 
       <div class="media-content">
-        <p class="title is-4">Get the Bulma <strong>Sass</strong> library</p>
-        <p class="subtitle">A collection of <code>.sass</code> files to build your own version of Bulma</p>
+        <p class="title is-4">获取 Bulma <strong>Sass</strong> 库</p>
+        <p class="subtitle">一系列编译您自己的 Bulma 的 <code>.sass</code> 文件</p>
       </div>
     </div>
 
     <div class="bd-option-item">
       <p class="bd-option-title block has-text-grey-light is-size-5">
-        <span class="button bd-fat-button is-success is-light is-pulled-right">Recommended</span>
-        Option 1. <strong>Install the NPM package</strong>
+        <span class="button bd-fat-button is-success is-light is-pulled-right">推荐</span>
+        选择 1. <strong>安装 NPM 包</strong>
       </p>
 
       <p class="block">
-        Bulma is available through
-        <a href="{{ site.data.meta.npm }}" target="_blank">npm</a>:
+        Bulma 可以通过
+        <a href="{{ site.data.meta.npm }}" target="_blank">npm</a> 获取：
       </p>
 
       {% capture npm_item %} {% highlight bash %}npm install bulma{%
@@ -136,19 +136,19 @@ site.data.meta.version }}/css/bulma-rtl.min.css";{% endhighlight %}
       %}
 
       <p class="block">
-        Bulma is also available via
-        <a href="{{ site.data.meta.cdnjs }}" target="_blank">cdnjs</a>.
+        Bulma 可以通过
+        <a href="{{ site.data.meta.cdnjs }}" target="_blank">cdnjs</a> 获取。
       </p>
     </div>
 
     <div class="bd-option-item">
       <p class="bd-option-title block has-text-grey-light is-size-5">
-        Option 2. <strong>Clone the GitHub repository</strong>
+        选择 2. <strong>克隆 GitHub 代码仓库</strong>
       </p>
 
       <p class="block">
-        Bulma is available on
-        <a href="{{ site.data.meta.github }}" target="_blank">GitHub</a>:
+        Bulma 可以在
+        <a href="{{ site.data.meta.github }}" target="_blank">GitHub</a> 获取：
       </p>
 
       {% capture git_ssh %} {% highlight bash %}{{ site.data.meta.git_ssh }}{%
@@ -164,8 +164,7 @@ site.data.meta.version }}/css/bulma-rtl.min.css";{% endhighlight %}
       %}
 
       <div class="notification is-warning is-light" style="font-size: 1rem">
-        Note that the GitHub repository also includes this documentation, so it’s significantly bigger than the NPM
-        package.
+        注意：GitHub 代码仓库也包含了这个文档，所以比正常的 NPM 包要大。
       </div>
     </div>
   </div>
