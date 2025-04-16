@@ -35,8 +35,8 @@
       "path": "/expo/"
     },
     "love": {
-      "name": "Love",
-      "subtitle": "Fans of Bulma around the world",
+      "name": "喜欢",
+      "subtitle": "遍布世界的 Bulma 粉丝",
       "color": "love",
       "icon": "fa-solid fa-heart",
       "path": "/love/"
@@ -65,15 +65,15 @@
       "path": "/become-a-bulma-sponsor/"
     },
     "shop": {
-      "name": "Shop",
-      "subtitle": "The Official Bulma Shop",
+      "name": "商店",
+      "subtitle": "官方 Bulma 商店",
       "color": "success",
       "icon": "fa-solid fa-store",
       "path": "/shop/"
     },
     "brand": {
-      "name": "Bulma Brand",
-      "subtitle": "The official Bulma logos",
+      "name": "Bulma 标志",
+      "subtitle": "官方 Bulma Logo",
       "color": "primary",
       "icon": "fa-solid fa-medal",
       "path": "/brand/"
@@ -89,14 +89,14 @@
       "description": "Everyone who is supporting Bulma"
     },
     "bootstrap": {
-      "name": "Coming from Bootstrap",
+      "name": "从 Bootstrap 转来",
       "subtitle": "See how Bulma is an alternative to Bootstrap",
       "icon": "fa-solid fa-exchange-alt",
       "color": "bootstrap",
       "path": "/alternative-to-bootstrap/"
     },
     "extensions": {
-      "name": "Bulma Extensions",
+      "name": "Bulma 扩展",
       "title": "Extensions",
       "subtitle": "Side projects to enhance Bulma",
       "icon": "fa-solid fa-plug",
@@ -451,14 +451,14 @@
       "icon": "fa-solid fa-window-minimize"
     },
     "form": {
-      "name": "Form",
+      "name": "表单",
       "subtitle": "The indispensable <strong>form controls</strong>, designed for maximum clarity",
       "color": "link",
       "icon": "fa-solid fa-align-left fa-flip-vertical",
       "path": "/documentation/form/"
     },
     "form-general": {
-      "name": "General",
+      "name": "常规",
       "subtitle": "All generic <strong>form controls</strong>, designed for consistency",
       "color": "link",
       "icon": "fa-solid fa-keyboard",
@@ -502,12 +502,12 @@
     "form-file": {
       "name": "File",
       "subtitle": "A custom <strong>file upload</strong> input, without JavaScript",
-      "color": "link",
+      "color": "链接",
       "icon": "fa-solid fa-cloud-upload-alt",
       "path": "/documentation/form/file/"
     },
     "elements": {
-      "name": "Elements",
+      "name": "元素",
       "subtitle": "Essential interface elements that only require a <strong>single CSS class</strong>",
       "color": "orange",
       "icon": "fa-solid fa-cube",
@@ -535,7 +535,7 @@
       "path": "/documentation/elements/button/"
     },
     "elements-content": {
-      "name": "Content",
+      "name": "内容",
       "subtitle": "A single class to handle <strong>WYSIWYG</strong> generated content, where only <strong>HTML tags</strong> are available",
       "color": "primary",
       "icon": "fa-solid fa-align-left",
@@ -555,28 +555,28 @@
       "path": "/documentation/elements/icon/"
     },
     "elements-image": {
-      "name": "Image",
+      "name": "图像",
       "subtitle": "A container for <strong>responsive images</strong>",
       "color": "sass",
       "icon": "fa-solid fa-image",
       "path": "/documentation/elements/image/"
     },
     "elements-notification": {
-      "name": "Notification",
+      "name": "通知",
       "subtitle": "Bold <strong>notification</strong> blocks, to alert your users of something",
       "color": "orange",
       "icon": "fa-solid fa-exclamation-triangle",
       "path": "/documentation/elements/notification/"
     },
     "elements-progress": {
-      "name": "Progress bars",
+      "name": "进度条",
       "subtitle": "Native HTML <strong>progress</strong> bars",
       "color": "warning",
       "icon": "fa-solid fa-spinner",
       "path": "/documentation/elements/progress/"
     },
     "elements-table": {
-      "name": "Table",
+      "name": "表格",
       "subtitle": "The inevitable HTML <strong>table</strong>, with special case cells",
       "color": "info",
       "icon": "fa-solid fa-table",
@@ -590,14 +590,14 @@
       "path": "/documentation/elements/tag/"
     },
     "elements-title": {
-      "name": "Title",
+      "name": "标题",
       "subtitle": "Simple <strong>headings</strong> to add depth to your page",
       "color": "black",
       "icon": "fa-solid fa-heading",
       "path": "/documentation/elements/title/"
     },
     "components": {
-      "name": "Components",
+      "name": "组件",
       "subtitle": "Advanced multi-part components with lots of possibilities",
       "color": "danger",
       "icon": "fa-solid fa-cubes",
@@ -680,7 +680,7 @@
       "path": "/documentation/skeletons/"
     },
     "helpers": {
-      "name": "Helpers",
+      "name": "辅助类",
       "subtitle": "Apply <strong>helper classes</strong> to almost any element, in order to alter their style",
       "color": "success",
       "icon": "fa-brands fa-css3",
@@ -750,7 +750,7 @@
       "path": "/documentation/helpers/visibility-helpers/"
     },
     "helpers-other": {
-      "name": "Other",
+      "name": "其它",
       "subtitle": "Other useful Bulma helpers",
       "color": "success",
       "icon": "fa-solid fa-ellipsis-h",
