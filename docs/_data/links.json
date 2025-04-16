@@ -1,7 +1,7 @@
 {
   "by_id": {
     "home": {
-      "name": "Home",
+      "name": "首页",
       "icon": "fa-solid fa-house",
       "path": "/"
     },
@@ -14,22 +14,22 @@
       "path": "/documentation/"
     },
     "code": {
-      "name": "Templates",
-      "subtitle": "Bulma templates to get started",
+      "name": "模板",
+      "subtitle": "Bulma 起步模板",
       "color": "link",
       "icon": "fa-solid fa-code",
       "path": "/bulma-templates/"
     },
     "blog": {
-      "name": "Bulma Blog",
-      "subtitle": "Stay updated with new features",
+      "name": "Bulma 博客",
+      "subtitle": "与新功能保持同步更新",
       "color": "rss",
       "icon": "fa-solid fa-rss",
       "path": "/blog/"
     },
     "expo": {
-      "name": "Expo",
-      "subtitle": "Official Bulma showcase",
+      "name": "展示",
+      "subtitle": "官方 Bulma 作品",
       "icon": "fa-solid fa-star",
       "color": "expo",
       "path": "/expo/"
@@ -104,7 +104,7 @@
       "path": "/extensions/"
     },
     "made-with-bulma": {
-      "name": "Made with Bulma",
+      "name": "Bulma 制造",
       "title": "Badge",
       "subtitle": "The official community badge",
       "icon": "fa-solid fa-certificate",
