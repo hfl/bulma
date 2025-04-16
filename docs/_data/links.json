@@ -126,50 +126,50 @@
       "path": "/documentation/start/"
     },
     "start-overview": {
-      "name": "Overview",
-      "subtitle": "You only need <strong>1 CSS file</strong> to use Bulma",
+      "name": "概览",
+      "subtitle": "您只需<strong>1 个 CSS 文件</strong>即可使用 Bulma",
       "color": "start",
       "icon": "fa-regular fa-eye",
       "path": "/documentation/start/overview/"
     },
     "start-installation": {
-      "name": "Installation",
-      "subtitle": "Create your <strong>own theme</strong> with a simple set of <strong>variables</strong>",
+      "name": "安装",
+      "subtitle": "使用一组简单的<strong>变量</strong>创建您<strong>自己的主题配色</strong>",
       "color": "start",
       "icon": "fa-solid fa-download",
       "path": "/documentation/start/installation/"
     },
     "start-alternative-versions": {
-      "name": "Alternative Versions",
-      "subtitle": "Use one of the <strong>pre-built</strong> alternative versions of Bulma",
+      "name": "替换版本",
+      "subtitle": "使用一个<strong>预编译</strong>的Bulma替换版本",
       "color": "start",
       "icon": "fa-solid fa-download",
       "path": "/documentation/start/alternative-versions/"
     },
     "start-syntax": {
-      "name": "Syntax",
-      "subtitle": "<strong>How to use</strong> Bulma components and their alternative styles",
+      "name": "语法",
+      "subtitle": "<strong>如何使用</strong> Bulma 组件和它们的替换样式",
       "color": "start",
       "icon": "fa-solid fa-code",
       "path": "/documentation/start/syntax/"
     },
     "start-modular": {
-      "name": "Modularity",
-      "subtitle": "Just import what you <strong>need</strong>",
+      "name": "模块化",
+      "subtitle": "只需导入您所<strong>需要</strong>的模块",
       "color": "start",
       "icon": "fa-solid fa-cubes",
       "path": "/documentation/start/modular/"
     },
     "start-responsiveness": {
-      "name": "Responsiveness",
-      "subtitle": "Bulma is a <strong>mobile-first</strong> framework",
+      "name": "自适应",
+      "subtitle": "Bulma 是一款<strong>移动设备优先</strong>的框架",
       "color": "start",
       "icon": "fa-solid fa-arrows-alt-h",
       "path": "/documentation/start/responsiveness/"
     },
     "start-migrating": {
-      "name": "Migrating to v1",
-      "subtitle": "How to <strong>migrate</strong> to Bulma v1",
+      "name": "迁移到 v1",
+      "subtitle": "如何<strong>迁移</strong>到 Bulma v1",
       "color": "start",
       "icon": "fa-solid fa-arrow-up",
       "path": "/documentation/start/migrating-to-v1/"
