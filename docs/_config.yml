@@ -4,6 +4,8 @@ env: "production"
 docs_file: "website.min"
 
 # Build
+include:
+  hide_carbon: true
 
 markdown: kramdown
 permalink: pretty
