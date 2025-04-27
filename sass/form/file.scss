@@ -142,17 +142,19 @@ $file-colors: shared.$form-colors !default;
 
     .#{iv.$class-prefix}file-cta {
       flex-direction: column;
-      height: auto;
-      padding: 1em 3em;
+      block-size: auto;
+      padding-block: 1em;
+      padding-inline: 3em;
     }
 
     .#{iv.$class-prefix}file-name {
-      border-width: 0 1px 1px;
+      border-block-width: 0 1px;
+      border-inline-width: 1px;
     }
 
     .#{iv.$class-prefix}file-icon {
-      height: 1.5em;
-      width: 1.5em;
+      block-size: 1.5em;
+      inline-size: 1.5em;
 
       .#{iv.$class-prefix}fa {
         font-size: 1.5rem;
@@ -190,7 +192,8 @@ $file-colors: shared.$form-colors !default;
         border-end-start-radius: cv.getVar("file-radius");
         border-start-end-radius: 0;
         border-start-start-radius: 0;
-        border-width: 0 1px 1px;
+        border-block-width: 0 1px;
+        border-inline-width: 1px;
       }
     }
   }
@@ -201,12 +204,12 @@ $file-colors: shared.$form-colors !default;
 
   &.#{iv.$class-prefix}is-fullwidth {
     .#{iv.$class-prefix}file-label {
-      width: 100%;
+      inline-size: 100%;
     }
 
     .#{iv.$class-prefix}file-name {
       flex-grow: 1;
-      max-width: none;
+      max-inline-size: none;
     }
   }
 
@@ -219,7 +222,8 @@ $file-colors: shared.$form-colors !default;
 
     .#{iv.$class-prefix}file-name {
       border-radius: cv.getVar("file-radius") 0 0 cv.getVar("file-radius");
-      border-width: 1px 0 1px 1px;
+      border-block-width: 1px;
+      border-inline-width: 1px 0;
       order: -1;
     }
   }
@@ -255,13 +259,13 @@ $file-colors: shared.$form-colors !default;
 }
 
 .#{iv.$class-prefix}file-input {
-  height: 100%;
-  left: 0;
+  block-size: 100%;
+  inset-inline-start: 0;
   opacity: 0;
   outline: none;
   position: absolute;
-  top: 0;
-  width: 100%;
+  inset-block-start: 0;
+  inline-size: 100%;
 }
 
 .#{iv.$class-prefix}file-cta,
@@ -274,8 +278,8 @@ $file-colors: shared.$form-colors !default;
   );
   border-radius: cv.getVar("file-radius");
   font-size: 1em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-inline-start: 1em;
+  padding-inline-end: 1em;
   white-space: nowrap;
 }
 
@@ -310,7 +314,7 @@ $file-colors: shared.$form-colors !default;
     calc(#{cv.getVar("file-name-color-l")} + #{cv.getVar("file-color-l-delta")})
   );
   display: block;
-  max-width: cv.getVar("file-name-max-width");
+  max-inline-size: cv.getVar("file-name-max-width");
   overflow: hidden;
   text-align: inherit;
   text-overflow: ellipsis;
@@ -319,10 +323,10 @@ $file-colors: shared.$form-colors !default;
 .#{iv.$class-prefix}file-icon {
   align-items: center;
   display: flex;
-  height: 1em;
+  block-size: 1em;
   justify-content: center;
   margin-inline-end: 0.5em;
-  width: 1em;
+  inline-size: 1em;
 
   .#{iv.$class-prefix}fa {
     font-size: 1rem;
