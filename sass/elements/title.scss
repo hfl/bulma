@@ -87,7 +87,7 @@ $subtitle-strong-weight: cv.getVar("weight-semibold") !default;
   }
 
   &:not(.#{iv.$class-prefix}is-spaced):has(+ .#{iv.$class-prefix}subtitle) {
-    margin-bottom: 0;
+    margin-block-end: 0;
   }
 
   // Sizes
@@ -116,7 +116,7 @@ $subtitle-strong-weight: cv.getVar("weight-semibold") !default;
   }
 
   &:not(.#{iv.$class-prefix}is-spaced):has(+ .#{iv.$class-prefix}title) {
-    margin-bottom: 0;
+    margin-block-end: 0;
   }
 
   // Sizes

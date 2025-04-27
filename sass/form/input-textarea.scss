@@ -15,8 +15,8 @@ $textarea-colors: shared.$form-colors !default;
   @extend %input;
 
   box-shadow: shared.$input-shadow;
-  max-width: 100%;
-  width: 100%;
+  max-inline-size: 100%;
+  inline-size: 100%;
 
   &[readonly] {
     box-shadow: none;
@@ -57,12 +57,12 @@ $textarea-colors: shared.$form-colors !default;
   // Modifiers
   &.#{iv.$class-prefix}is-fullwidth {
     display: block;
-    width: 100%;
+    inline-size: 100%;
   }
 
   &.#{iv.$class-prefix}is-inline {
     display: inline;
-    width: auto;
+    inline-size: auto;
   }
 }
 
@@ -71,16 +71,15 @@ $textarea-colors: shared.$form-colors !default;
 
   &.#{iv.$class-prefix}is-rounded {
     border-radius: cv.getVar("radius-rounded");
-    padding-left: calc(#{controls.$control-padding-horizontal} + 0.375em);
-    padding-right: calc(#{controls.$control-padding-horizontal} + 0.375em);
+    padding-inline-start: calc(#{controls.$control-padding-horizontal} + 0.375em);
+    padding-inline-end: calc(#{controls.$control-padding-horizontal} + 0.375em);
   }
 
   &.#{iv.$class-prefix}is-static {
     background-color: transparent;
     border-color: transparent;
     box-shadow: none;
-    padding-left: 0;
-    padding-right: 0;
+    padding-inline: 0;
   }
 }
 
@@ -94,18 +93,18 @@ $textarea-colors: shared.$form-colors !default;
     )
   );
   display: block;
-  max-width: 100%;
-  min-width: 100%;
+  max-inline-size: 100%;
+  min-inline-size: 100%;
   padding: cv.getVar("textarea-padding");
   resize: vertical;
 
   &:not([rows]) {
-    max-height: cv.getVar("textarea-max-height");
-    min-height: cv.getVar("textarea-min-height");
+    max-block-size: cv.getVar("textarea-max-height");
+    min-block-size: cv.getVar("textarea-min-height");
   }
 
   &[rows] {
-    height: initial;
+    block-size: initial;
   }
 
   // Modifiers

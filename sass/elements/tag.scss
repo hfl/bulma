@@ -96,11 +96,10 @@ $tag-colors: dv.$colors !default;
   color: hsl(cv.getVar("tag-h"), cv.getVar("tag-s"), cv.getVar("tag-color-l"));
   display: inline-flex;
   font-size: cv.getVar("size-small");
-  height: 2em;
+  block-size: 2em;
   justify-content: center;
   line-height: 1.5;
-  padding-left: 0.75em;
-  padding-right: 0.75em;
+  padding-inline: 0.75em;
   white-space: nowrap;
 
   .#{iv.$class-prefix}delete {
@@ -166,28 +165,28 @@ $tag-colors: dv.$colors !default;
     margin-inline-start: cv.getVar("tag-delete-margin");
     padding: 0;
     position: relative;
-    width: 2em;
+    inline-size: 2em;
 
     &::before,
     &::after {
       background-color: currentColor;
       content: "";
       display: block;
-      left: 50%;
+      inset-inline-start: 50%;
       position: absolute;
-      top: 50%;
+      inset-block-start: 50%;
       transform: translateX(-50%) translateY(-50%) rotate(45deg);
       transform-origin: center center;
     }
 
     &::before {
-      height: 1px;
-      width: 50%;
+      block-size: 1px;
+      inline-size: 50%;
     }
 
     &::after {
-      height: 50%;
-      width: 1px;
+      block-size: 50%;
+      inline-size: 1px;
     }
   }
 

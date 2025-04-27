@@ -18,12 +18,12 @@ $select-colors: shared.$form-colors !default;
   );
 
   display: inline-block;
-  max-width: 100%;
+  max-inline-size: 100%;
   position: relative;
   vertical-align: top;
 
   &:not(.#{iv.$class-prefix}is-multiple) {
-    height: shared.$input-height;
+    block-size: shared.$input-height;
   }
 
   &:not(.#{iv.$class-prefix}is-multiple):not(.#{iv.$class-prefix}is-loading) {
@@ -46,7 +46,7 @@ $select-colors: shared.$form-colors !default;
     cursor: pointer;
     display: block;
     font-size: 1em;
-    max-width: 100%;
+    max-inline-size: 100%;
     outline: none;
 
     &::-ms-expand {
@@ -63,11 +63,12 @@ $select-colors: shared.$form-colors !default;
     }
 
     &[multiple] {
-      height: auto;
+      block-size: auto;
       padding: 0;
 
       option {
-        padding: 0.5em 1em;
+        padding-block: 0.5em;
+        padding-inline: 1em;
       }
     }
   }
@@ -112,10 +113,10 @@ $select-colors: shared.$form-colors !default;
   }
 
   &.#{iv.$class-prefix}is-fullwidth {
-    width: 100%;
+    inline-size: 100%;
 
     select {
-      width: 100%;
+      inline-size: 100%;
     }
   }
 
@@ -123,9 +124,9 @@ $select-colors: shared.$form-colors !default;
     &::after {
       @extend %loader;
       inset-inline-end: 0.625em;
-      margin-top: 0;
+      margin-block-start: 0;
       position: absolute;
-      top: 0.625em;
+      inset-block-start: 0.625em;
       transform: none;
     }
 

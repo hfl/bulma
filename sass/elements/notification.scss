@@ -62,7 +62,7 @@ $notification-colors: dv.$colors !default;
   & > .#{iv.$class-prefix}delete {
     position: absolute;
     inset-inline-end: 1rem;
-    top: 1rem;
+    inset-block-start: 1rem;
   }
 
   .#{iv.$class-prefix}title,

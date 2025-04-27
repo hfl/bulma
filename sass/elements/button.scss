@@ -194,24 +194,24 @@ $no-palette: ("white", "black", "light", "dark");
   );
   cursor: pointer;
   font-weight: cv.getVar("button-weight");
-  height: auto;
+  blocki-size: auto;
   justify-content: center;
-  padding-bottom: calc(
+  padding-block-end: calc(
     #{cv.getVar("button-padding-vertical")} - #{cv.getVar(
         "button-border-width"
       )}
   );
-  padding-left: calc(
+  padding-inline-start: calc(
     #{cv.getVar("button-padding-horizontal")} - #{cv.getVar(
         "button-border-width"
       )}
   );
-  padding-right: calc(
+  padding-inline-end: calc(
     #{cv.getVar("button-padding-horizontal")} - #{cv.getVar(
         "button-border-width"
       )}
   );
-  padding-top: calc(
+  padding-block-start: calc(
     #{cv.getVar("button-padding-vertical")} - #{cv.getVar(
         "button-border-width"
       )}
@@ -232,8 +232,8 @@ $no-palette: ("white", "black", "light", "dark");
     &.#{iv.$class-prefix}is-small,
     &.#{iv.$class-prefix}is-medium,
     &.#{iv.$class-prefix}is-large {
-      height: 1.5em;
-      width: 1.5em;
+      block-size: 1.5em;
+      inline-size: 1.5em;
     }
 
     &:first-child:not(:last-child) {
@@ -521,7 +521,7 @@ $no-palette: ("white", "black", "light", "dark");
   // Modifiers
   &.#{iv.$class-prefix}is-fullwidth {
     display: flex;
-    width: 100%;
+    inline-size: 100%;
   }
 
   &.#{iv.$class-prefix}is-loading {
@@ -546,11 +546,11 @@ $no-palette: ("white", "black", "light", "dark");
 
   &.#{iv.$class-prefix}is-rounded {
     border-radius: cv.getVar("radius-rounded");
-    padding-left: calc(
+    padding-inline-start: calc(
       #{cv.getVar("button-padding-horizontal")} + #{$button-rounded-padding-horizontal-offset} -
         #{cv.getVar("button-border-width")}
     );
-    padding-right: calc(
+    padding-inline-end: calc(
       #{cv.getVar("button-padding-horizontal")} + #{$button-rounded-padding-horizontal-offset} -
         #{cv.getVar("button-border-width")}
     );

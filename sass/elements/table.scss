@@ -95,7 +95,7 @@ $table-colors: dv.$colors !default;
     // Modifiers
     &.#{iv.$class-prefix}is-narrow {
       white-space: nowrap;
-      width: 1%;
+      inline-size: 1%;
     }
 
     &.#{iv.$class-prefix}is-selected {
@@ -179,7 +179,7 @@ $table-colors: dv.$colors !default;
       &:last-child {
         td,
         th {
-          border-bottom-width: 0;
+          border-block-end-width: 0;
         }
       }
     }
@@ -203,7 +203,7 @@ $table-colors: dv.$colors !default;
   }
 
   &.#{iv.$class-prefix}is-fullwidth {
-    width: 100%;
+    inline-size: 100%;
   }
 
   &.#{iv.$class-prefix}is-hoverable {
@@ -235,7 +235,8 @@ $table-colors: dv.$colors !default;
   &.#{iv.$class-prefix}is-narrow {
     td,
     th {
-      padding: 0.25em 0.5em;
+      padding-block: 0.25em;
+      padding-inline: 0.5em;
     }
   }
 
@@ -256,6 +257,6 @@ $table-colors: dv.$colors !default;
   @extend %block;
   @include mx.overflow-touch;
   overflow: auto;
-  overflow-y: hidden;
-  max-width: 100%;
+  overflow-block: hidden;
+  max-inline-size: 100%;
 }

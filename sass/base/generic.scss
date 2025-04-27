@@ -69,9 +69,12 @@ html {
   font-size: cv.getVar("body-size");
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  min-width: cv.getVar("body-min-width");
-  overflow-x: cv.getVar("body-overflow-x");
-  overflow-y: cv.getVar("body-overflow-y");
+  min-inline-size: cv.getVar("body-min-width");
+// 测试逻辑属性
+//  overflow-x: cv.getVar("body-overflow-x");
+//  overflow-y: cv.getVar("body-overflow-y");
+  overflow-inline: cv.getVar("body-overflow-x");
+  overflow-block: cv.getVar("body-overflow-y");
   text-rendering: cv.getVar("body-rendering");
   text-size-adjust: 100%;
 }
@@ -166,13 +169,13 @@ hr {
   background-color: cv.getVar("hr-background-color");
   border: none;
   display: block;
-  height: cv.getVar("hr-height");
-  margin: cv.getVar("hr-margin");
+  block-size: cv.getVar("hr-height");
+  inline-size: cv.getVar("hr-margin");
 }
 
 img {
-  height: auto;
-  max-width: 100%;
+  block-size: auto;
+  max-inline-size: 100%;
 }
 
 input[type="checkbox"],
@@ -193,7 +196,7 @@ strong {
   color: cv.getVar("strong-color");
   font-weight: cv.getVar("strong-weight");
 }
-
+//有问题，暂不改
 svg {
   height: auto;
   width: auto;
@@ -211,7 +214,7 @@ pre {
   background-color: cv.getVar("pre-background");
   color: cv.getVar("pre");
   font-size: cv.getVar("pre-font-size");
-  overflow-x: auto;
+  overflow-inline: auto;
   padding: cv.getVar("pre-padding");
   white-space: pre;
   word-wrap: normal;
@@ -237,4 +240,8 @@ table {
   th {
     color: cv.getVar("text-strong");
   }
+}
+
+html[lang^="mn-Mong"] {
+  writing-mode: vertical-lr;
 }

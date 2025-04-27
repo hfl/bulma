@@ -2876,8 +2876,8 @@ html {
 
 img,
 video {
-  height: auto;
-  max-width: 100%;
+  block-size: auto;
+  max-inline-size: 100%;
 }
 
 iframe {
@@ -2930,9 +2930,9 @@ html {
   font-size: var(--bulma-body-size);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  min-width: var(--bulma-body-min-width);
-  overflow-x: var(--bulma-body-overflow-x);
-  overflow-y: var(--bulma-body-overflow-y);
+  min-inline-size: var(--bulma-body-min-width);
+  overflow-inline: var(--bulma-body-overflow-x);
+  overflow-block: var(--bulma-body-overflow-y);
   text-rendering: var(--bulma-body-rendering);
   text-size-adjust: 100%;
 }
@@ -3027,13 +3027,13 @@ hr {
   background-color: var(--bulma-hr-background-color);
   border: none;
   display: block;
-  height: var(--bulma-hr-height);
-  margin: var(--bulma-hr-margin);
+  block-size: var(--bulma-hr-height);
+  inline-size: var(--bulma-hr-margin);
 }
 
 img {
-  height: auto;
-  max-width: 100%;
+  block-size: auto;
+  max-inline-size: 100%;
 }
 
 input[type=checkbox],
@@ -3069,7 +3069,7 @@ pre {
   background-color: var(--bulma-pre-background);
   color: var(--bulma-pre);
   font-size: var(--bulma-pre-font-size);
-  overflow-x: auto;
+  overflow-inline: auto;
   padding: var(--bulma-pre-padding);
   white-space: pre;
   word-wrap: normal;
@@ -3091,6 +3091,10 @@ table th:not([align]) {
 }
 table th {
   color: var(--bulma-text-strong);
+}
+
+html[lang^=mn-Mong] {
+  writing-mode: vertical-lr;
 }
 
 @keyframes spinAround {
@@ -3384,12 +3388,12 @@ a.box:active {
   color: hsl(var(--bulma-button-h), var(--bulma-button-s), var(--bulma-button-color-l));
   cursor: pointer;
   font-weight: var(--bulma-button-weight);
-  height: auto;
+  blocki-size: auto;
   justify-content: center;
-  padding-bottom: calc(var(--bulma-button-padding-vertical) - var(--bulma-button-border-width));
-  padding-left: calc(var(--bulma-button-padding-horizontal) - var(--bulma-button-border-width));
-  padding-right: calc(var(--bulma-button-padding-horizontal) - var(--bulma-button-border-width));
-  padding-top: calc(var(--bulma-button-padding-vertical) - var(--bulma-button-border-width));
+  padding-block-end: calc(var(--bulma-button-padding-vertical) - var(--bulma-button-border-width));
+  padding-inline-start: calc(var(--bulma-button-padding-horizontal) - var(--bulma-button-border-width));
+  padding-inline-end: calc(var(--bulma-button-padding-horizontal) - var(--bulma-button-border-width));
+  padding-block-start: calc(var(--bulma-button-padding-vertical) - var(--bulma-button-border-width));
   text-align: center;
   white-space: nowrap;
 }
@@ -3397,8 +3401,8 @@ a.box:active {
   color: inherit;
 }
 .button .icon, .button .icon.is-small, .button .icon.is-medium, .button .icon.is-large {
-  height: 1.5em;
-  width: 1.5em;
+  block-size: 1.5em;
+  inline-size: 1.5em;
 }
 .button .icon:first-child:not(:last-child) {
   margin-inline-start: calc(-0.5 * var(--bulma-button-padding-horizontal));
@@ -3840,7 +3844,7 @@ a.box:active {
 }
 .button.is-fullwidth {
   display: flex;
-  width: 100%;
+  inline-size: 100%;
 }
 .button.is-loading {
   box-shadow: none;
@@ -3862,8 +3866,8 @@ a.box:active {
 }
 .button.is-rounded {
   border-radius: var(--bulma-radius-rounded);
-  padding-left: calc(var(--bulma-button-padding-horizontal) + 0.25em - var(--bulma-button-border-width));
-  padding-right: calc(var(--bulma-button-padding-horizontal) + 0.25em - var(--bulma-button-border-width));
+  padding-inline-start: calc(var(--bulma-button-padding-horizontal) + 0.25em - var(--bulma-button-border-width));
+  padding-inline-end: calc(var(--bulma-button-padding-horizontal) + 0.25em - var(--bulma-button-border-width));
 }
 
 .buttons {
@@ -3968,7 +3972,7 @@ a.box:active {
 }
 
 .content li + li {
-  margin-top: 0.25em;
+  margin-block-start: 0.25em;
 }
 .content p:not(:last-child),
 .content dl:not(:last-child),
@@ -3977,7 +3981,7 @@ a.box:active {
 .content blockquote:not(:last-child),
 .content pre:not(:last-child),
 .content table:not(:last-child) {
-  margin-bottom: var(--bulma-content-block-margin-bottom);
+  margin-block-end: var(--bulma-content-block-margin-bottom);
 }
 .content h1,
 .content h2,
@@ -3991,36 +3995,36 @@ a.box:active {
 }
 .content h1 {
   font-size: 2em;
-  margin-bottom: 0.5em;
+  margin-block-end: 0.5em;
 }
 .content h1:not(:first-child) {
-  margin-top: 1em;
+  margin-block-start: 1em;
 }
 .content h2 {
   font-size: 1.75em;
-  margin-bottom: 0.5714em;
+  margin-block-end: 0.5714em;
 }
 .content h2:not(:first-child) {
-  margin-top: 1.1428em;
+  margin-block-start: 1.1428em;
 }
 .content h3 {
   font-size: 1.5em;
-  margin-bottom: 0.6666em;
+  margin-block-end: 0.6666em;
 }
 .content h3:not(:first-child) {
-  margin-top: 1.3333em;
+  margin-block-start: 1.3333em;
 }
 .content h4 {
   font-size: 1.25em;
-  margin-bottom: 0.8em;
+  margin-block-end: 0.8em;
 }
 .content h5 {
   font-size: 1.125em;
-  margin-bottom: 0.8888em;
+  margin-block-end: 0.8888em;
 }
 .content h6 {
   font-size: 1em;
-  margin-bottom: 1em;
+  margin-block-end: 1em;
 }
 .content blockquote {
   background-color: var(--bulma-content-blockquote-background-color);
@@ -4032,7 +4036,7 @@ a.box:active {
   margin-inline-start: 2em;
 }
 .content ol:not(:first-child) {
-  margin-top: 1em;
+  margin-block-start: 1em;
 }
 .content ol:not([type]) {
   list-style-type: decimal;
@@ -4054,12 +4058,12 @@ a.box:active {
   margin-inline-start: 2em;
 }
 .content ul:not(:first-child) {
-  margin-top: 1em;
+  margin-block-start: 1em;
 }
 .content ul ul {
   list-style-type: circle;
-  margin-bottom: 0.25em;
-  margin-top: 0.25em;
+  margin-block-end: 0.25em;
+  margin-block-start: 0.25em;
 }
 .content ul ul ul {
   list-style-type: square;
@@ -4068,15 +4072,15 @@ a.box:active {
   margin-inline-start: 2em;
 }
 .content figure:not([class]) {
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-inline-start: 2em;
+  margin-inline-end: 2em;
   text-align: center;
 }
 .content figure:not([class]):not(:first-child) {
-  margin-top: 2em;
+  margin-block-start: 2em;
 }
 .content figure:not([class]):not(:last-child) {
-  margin-bottom: 2em;
+  margin-block-end: 2em;
 }
 .content figure:not([class]) img {
   display: inline-block;
@@ -4123,7 +4127,7 @@ a.box:active {
   border-bottom-width: var(--bulma-content-table-body-last-row-cell-border-bottom-width);
 }
 .content .tabs li + li {
-  margin-top: 0;
+  margin-block-start: 0;
 }
 .content.is-small {
   font-size: var(--bulma-size-small);
@@ -4211,22 +4215,22 @@ a.box:active {
   display: inline-flex;
   flex-shrink: 0;
   justify-content: center;
-  height: var(--bulma-icon-dimensions);
+  block-size: var(--bulma-icon-dimensions);
   transition-duration: var(--bulma-duration);
   transition-property: color;
-  width: var(--bulma-icon-dimensions);
+  inline-size: var(--bulma-icon-dimensions);
 }
 .icon.is-small {
-  height: var(--bulma-icon-dimensions-small);
-  width: var(--bulma-icon-dimensions-small);
+  block-size: var(--bulma-icon-dimensions-small);
+  inline-size: var(--bulma-icon-dimensions-small);
 }
 .icon.is-medium {
-  height: var(--bulma-icon-dimensions-medium);
-  width: var(--bulma-icon-dimensions-medium);
+  block-size: var(--bulma-icon-dimensions-medium);
+  inline-size: var(--bulma-icon-dimensions-medium);
 }
 .icon.is-large {
-  height: var(--bulma-icon-dimensions-large);
-  width: var(--bulma-icon-dimensions-large);
+  block-size: var(--bulma-icon-dimensions-large);
+  inline-size: var(--bulma-icon-dimensions-large);
 }
 
 .icon-text {
@@ -4503,13 +4507,13 @@ div.icon-text {
   animation: spinAround 500ms infinite linear;
   border: 2px solid var(--bulma-border);
   border-radius: var(--bulma-radius-rounded);
-  border-right-color: transparent;
-  border-top-color: transparent;
+  border-inline-end-color: transparent;
+  border-block-start-color: transparent;
   content: "";
   display: block;
-  height: 1em;
+  block-size: 1em;
   position: relative;
-  width: 1em;
+  inline-size: 1em;
 }
 
 .notification {
@@ -4546,7 +4550,7 @@ div.icon-text {
 .notification > .delete {
   position: absolute;
   inset-inline-end: 1rem;
-  top: 1rem;
+  inset-block-start: 1rem;
 }
 .notification .title,
 .notification .subtitle,
@@ -4720,10 +4724,10 @@ div.icon-text {
   border: none;
   border-radius: var(--bulma-progress-border-radius);
   display: block;
-  height: var(--bulma-size-normal);
+  block-size: var(--bulma-size-normal);
   overflow: hidden;
   padding: 0;
-  width: 100%;
+  inline-size: 100%;
 }
 .progress::-webkit-progress-bar {
   background-color: var(--bulma-progress-bar-background-color);
@@ -4792,13 +4796,13 @@ div.icon-text {
   animation-name: none;
 }
 .progress.is-small {
-  height: var(--bulma-size-small);
+  block-size: var(--bulma-size-small);
 }
 .progress.is-medium {
-  height: var(--bulma-size-medium);
+  block-size: var(--bulma-size-medium);
 }
 .progress.is-large {
-  height: var(--bulma-size-large);
+  block-size: var(--bulma-size-large);
 }
 
 @keyframes moveIndeterminate {
@@ -4926,7 +4930,7 @@ div.icon-text {
 .table td.is-narrow,
 .table th.is-narrow {
   white-space: nowrap;
-  width: 1%;
+  inline-size: 1%;
 }
 .table td.is-selected,
 .table th.is-selected {
@@ -5049,7 +5053,7 @@ div.icon-text {
 }
 .table tbody tr:last-child td,
 .table tbody tr:last-child th {
-  border-bottom-width: 0;
+  border-block-end-width: 0;
 }
 .table.is-bordered td,
 .table.is-bordered th {
@@ -5060,7 +5064,7 @@ div.icon-text {
   border-bottom-width: 1px;
 }
 .table.is-fullwidth {
-  width: 100%;
+  inline-size: 100%;
 }
 .table.is-hoverable tbody tr:not(.is-selected):hover {
   background-color: var(--bulma-table-row-hover-background-color);
@@ -5073,7 +5077,8 @@ div.icon-text {
 }
 .table.is-narrow td,
 .table.is-narrow th {
-  padding: 0.25em 0.5em;
+  padding-block: 0.25em;
+  padding-inline: 0.5em;
 }
 .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
   background-color: var(--bulma-table-striped-row-even-background-color);
@@ -5082,8 +5087,8 @@ div.icon-text {
 .table-container {
   -webkit-overflow-scrolling: touch;
   overflow: auto;
-  overflow-y: hidden;
-  max-width: 100%;
+  overflow-block: hidden;
+  max-inline-size: 100%;
 }
 
 .tags {
@@ -5135,11 +5140,10 @@ div.icon-text {
   color: hsl(var(--bulma-tag-h), var(--bulma-tag-s), var(--bulma-tag-color-l));
   display: inline-flex;
   font-size: var(--bulma-size-small);
-  height: 2em;
+  block-size: 2em;
   justify-content: center;
   line-height: 1.5;
-  padding-left: 0.75em;
-  padding-right: 0.75em;
+  padding-inline: 0.75em;
   white-space: nowrap;
 }
 .tag .delete {
@@ -5281,25 +5285,25 @@ div.icon-text {
   margin-inline-start: var(--bulma-tag-delete-margin);
   padding: 0;
   position: relative;
-  width: 2em;
+  inline-size: 2em;
 }
 .tag.is-delete::before, .tag.is-delete::after {
   background-color: currentColor;
   content: "";
   display: block;
-  left: 50%;
+  inset-inline-start: 50%;
   position: absolute;
-  top: 50%;
+  inset-block-start: 50%;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
   transform-origin: center center;
 }
 .tag.is-delete::before {
-  height: 1px;
-  width: 50%;
+  block-size: 1px;
+  inline-size: 50%;
 }
 .tag.is-delete::after {
-  height: 50%;
-  width: 1px;
+  block-size: 50%;
+  inline-size: 1px;
 }
 .tag.is-rounded {
   border-radius: var(--bulma-radius-rounded);
@@ -5375,7 +5379,7 @@ button.tag:active,
   font-weight: var(--bulma-title-strong-weight);
 }
 .title:not(.is-spaced):has(+ .subtitle) {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 .title.is-1 {
   font-size: 3rem;
@@ -5410,7 +5414,7 @@ button.tag:active,
   font-weight: var(--bulma-subtitle-strong-weight);
 }
 .subtitle:not(.is-spaced):has(+ .title) {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 .subtitle.is-1 {
   font-size: 3rem;
@@ -5521,8 +5525,8 @@ button.tag:active,
 /* Bulma Form */
 .textarea, .input {
   box-shadow: inset 0 0.0625em 0.125em hsla(var(--bulma-scheme-h), var(--bulma-scheme-s), var(--bulma-scheme-invert-l), 0.05);
-  max-width: 100%;
-  width: 100%;
+  max-inline-size: 100%;
+  inline-size: 100%;
 }
 [readonly].textarea, [readonly].input {
   box-shadow: none;
@@ -5638,24 +5642,23 @@ button.tag:active,
 }
 .is-fullwidth.textarea, .is-fullwidth.input {
   display: block;
-  width: 100%;
+  inline-size: 100%;
 }
 .is-inline.textarea, .is-inline.input {
   display: inline;
-  width: auto;
+  inline-size: auto;
 }
 
 .input.is-rounded {
   border-radius: var(--bulma-radius-rounded);
-  padding-left: calc(calc(0.75em - 1px) + 0.375em);
-  padding-right: calc(calc(0.75em - 1px) + 0.375em);
+  padding-inline-start: calc(calc(0.75em - 1px) + 0.375em);
+  padding-inline-end: calc(calc(0.75em - 1px) + 0.375em);
 }
 .input.is-static {
   background-color: transparent;
   border-color: transparent;
   box-shadow: none;
-  padding-left: 0;
-  padding-right: 0;
+  padding-inline: 0;
 }
 
 .textarea {
@@ -5663,17 +5666,17 @@ button.tag:active,
   --bulma-textarea-max-height: 40em;
   --bulma-textarea-min-height: 8em;
   display: block;
-  max-width: 100%;
-  min-width: 100%;
+  max-inline-size: 100%;
+  min-inline-size: 100%;
   padding: var(--bulma-textarea-padding);
   resize: vertical;
 }
 .textarea:not([rows]) {
-  max-height: var(--bulma-textarea-max-height);
-  min-height: var(--bulma-textarea-min-height);
+  max-block-size: var(--bulma-textarea-max-height);
+  min-block-size: var(--bulma-textarea-min-height);
 }
 .textarea[rows] {
-  height: initial;
+  block-size: initial;
 }
 .textarea.has-fixed-size {
   resize: none;
@@ -5712,12 +5715,12 @@ button.tag:active,
   --bulma-input-border-width: 1px;
   --bulma-input-border-l: var(--bulma-border-l);
   display: inline-block;
-  max-width: 100%;
+  max-inline-size: 100%;
   position: relative;
   vertical-align: top;
 }
 .select:not(.is-multiple) {
-  height: var(--bulma-control-height);
+  block-size: var(--bulma-control-height);
 }
 .select:not(.is-multiple):not(.is-loading)::after {
   inset-inline-end: 1.125em;
@@ -5731,7 +5734,7 @@ button.tag:active,
   cursor: pointer;
   display: block;
   font-size: 1em;
-  max-width: 100%;
+  max-inline-size: 100%;
   outline: none;
 }
 .select select::-ms-expand {
@@ -5744,11 +5747,12 @@ button.tag:active,
   padding-inline-end: 2.5em;
 }
 .select select[multiple] {
-  height: auto;
+  block-size: auto;
   padding: 0;
 }
 .select select[multiple] option {
-  padding: 0.5em 1em;
+  padding-block: 0.5em;
+  padding-inline: 1em;
 }
 .select.is-white {
   --bulma-input-h: var(--bulma-white-h);
@@ -5875,16 +5879,16 @@ button.tag:active,
   opacity: 0.5;
 }
 .select.is-fullwidth {
-  width: 100%;
+  inline-size: 100%;
 }
 .select.is-fullwidth select {
-  width: 100%;
+  inline-size: 100%;
 }
 .select.is-loading::after {
   inset-inline-end: 0.625em;
-  margin-top: 0;
+  margin-block-start: 0;
   position: absolute;
-  top: 0.625em;
+  inset-block-start: 0.625em;
   transform: none;
 }
 .select.is-loading.is-small:after {
@@ -13916,18 +13920,18 @@ textarea.is-skeleton:-ms-input-placeholder {
 .has-skeleton::after {
   content: "";
   display: block;
-  height: 100%;
-  left: 0;
-  max-width: 100%;
-  min-width: 10%;
+  block-size: 100%;
+  inset-inline-start: 0;
+  max-inline-size: 100%;
+  min-inline-size: 10%;
   position: absolute;
-  top: 0;
-  width: 7em;
+  inset-block-start: 0;
+  inline-size: 7em;
 }
 
 .skeleton-block {
   color: transparent !important;
-  min-height: var(--bulma-skeleton-block-min-height);
+  min-block-size: var(--bulma-skeleton-block-min-height);
 }
 
 .skeleton-lines {
@@ -13938,11 +13942,11 @@ textarea.is-skeleton:-ms-input-placeholder {
   position: relative;
 }
 .skeleton-lines > div {
-  height: var(--bulma-skeleton-line-height);
+  block-size: var(--bulma-skeleton-line-height);
 }
 .skeleton-lines > div:last-child {
-  min-width: 4em;
-  width: 30%;
+  min-inline-size: 4em;
+  block-size: 30%;
 }
 
 /* Bulma Helpers */

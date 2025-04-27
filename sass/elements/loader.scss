@@ -5,11 +5,11 @@
   animation: spinAround 500ms infinite linear;
   border: 2px solid cv.getVar("border");
   border-radius: cv.getVar("radius-rounded");
-  border-right-color: transparent;
-  border-top-color: transparent;
+  border-inline-end-color: transparent;
+  border-block-start-color: transparent;
   content: "";
   display: block;
-  height: 1em;
+  block-size: 1em;
   position: relative;
-  width: 1em;
+  inline-size: 1em;
 }
