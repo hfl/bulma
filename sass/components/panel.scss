@@ -78,7 +78,7 @@ $panel-colors: dv.$colors !default;
   font-size: cv.getVar("size-normal");
 
   &:not(:last-child) {
-    margin-bottom: cv.getVar("panel-margin");
+    margin-block-end: cv.getVar("panel-margin");
   }
 
   // Colors
@@ -100,7 +100,7 @@ $panel-colors: dv.$colors !default;
 .#{iv.$class-prefix}panel-tabs,
 .#{iv.$class-prefix}panel-block {
   &:not(:last-child) {
-    border-bottom: cv.getVar("panel-item-border");
+    border-block-end: cv.getVar("panel-item-border");
   }
 }
 
@@ -129,15 +129,15 @@ $panel-colors: dv.$colors !default;
   justify-content: center;
 
   a {
-    border-bottom-color: cv.getVar("panel-tab-border-bottom-color");
-    border-bottom-style: cv.getVar("panel-tab-border-bottom-style");
-    border-bottom-width: cv.getVar("panel-tab-border-bottom-width");
-    margin-bottom: calc(-1 * #{$panel-tab-border-bottom-width});
+    border-block-end-color: cv.getVar("panel-tab-border-bottom-color");
+    border-block-end-style: cv.getVar("panel-tab-border-bottom-style");
+    border-block-end-width: cv.getVar("panel-tab-border-bottom-width");
+    margin-block-end: calc(-1 * #{$panel-tab-border-bottom-width});
     padding: 0.75em;
 
     // Modifiers
     &.#{iv.$class-prefix}is-active {
-      border-bottom-color: hsl(
+      border-block-end-color: hsl(
         cv.getVar("panel-h"),
         cv.getVar("panel-s"),
         cv.getVar("panel-color-l")
@@ -162,7 +162,8 @@ $panel-colors: dv.$colors !default;
   color: cv.getVar("panel-block-color");
   display: flex;
   justify-content: flex-start;
-  padding: 0.75em 1em;
+  padding-block: 0.75em;
+  padding-inline: 1em;
 
   input[type="checkbox"] {
     margin-inline-end: 0.75em;
@@ -171,7 +172,7 @@ $panel-colors: dv.$colors !default;
   & > .#{iv.$class-prefix}control {
     flex-grow: 1;
     flex-shrink: 1;
-    width: 100%;
+    inline-size: 100%;
   }
 
   &.#{iv.$class-prefix}is-wrapped {

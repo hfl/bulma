@@ -44,7 +44,7 @@ $hero-colors: dv.$colors !default;
 
   .#{iv.$class-prefix}tabs {
     ul {
-      border-bottom: none;
+      border-block-end: none;
     }
   }
 
@@ -196,11 +196,11 @@ $hero-colors: dv.$colors !default;
   }
 
   &.#{iv.$class-prefix}is-halfheight {
-    min-height: 50vh;
+    min-block-size: 50vh;
   }
 
   &.#{iv.$class-prefix}is-fullheight {
-    min-height: 100vh;
+    min-block-size: 100vh;
   }
 }
 

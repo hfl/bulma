@@ -194,7 +194,7 @@ $no-palette: ("white", "black", "light", "dark");
   );
   cursor: pointer;
   font-weight: cv.getVar("button-weight");
-  blocki-size: auto;
+  block-size: auto;
   justify-content: center;
   padding-block-end: calc(
     #{cv.getVar("button-padding-vertical")} - #{cv.getVar(

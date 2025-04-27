@@ -131,8 +131,8 @@ $pagination-shadow-inset: inset 0 0.0625em 0.125em
   &.#{iv.$class-prefix}is-rounded {
     .#{iv.$class-prefix}pagination-previous,
     .#{iv.$class-prefix}pagination-next {
-      padding-left: 1em;
-      padding-right: 1em;
+      padding-inline-start: 1em;
+      padding-inline-end: 1em;
       border-radius: cv.getVar("radius-rounded");
     }
 
@@ -164,8 +164,8 @@ $pagination-shadow-inset: inset 0 0.0625em 0.125em
   font-size: cv.getVar("pagination-item-font-size");
   justify-content: center;
   margin: cv.getVar("pagination-item-margin");
-  padding-left: cv.getVar("pagination-item-padding-left");
-  padding-right: cv.getVar("pagination-item-padding-right");
+  padding-inline-start: cv.getVar("pagination-item-padding-left");
+  padding-inline-end: cv.getVar("pagination-item-padding-right");
   text-align: center;
 }
 
@@ -212,7 +212,7 @@ $pagination-shadow-inset: inset 0 0.0625em 0.125em
     #{cv.getVar("pagination-item-s")},
     #{cv.getVar("pagination-item-color-l")}
   );
-  min-width: cv.getVar("pagination-min-width");
+  min-inline-size: cv.getVar("pagination-min-width");
   transition-duration: cv.getVar("duration");
   transition-property: background-color, border-color, box-shadow, color;
 
@@ -258,8 +258,8 @@ $pagination-shadow-inset: inset 0 0.0625em 0.125em
 
 .#{iv.$class-prefix}pagination-previous,
 .#{iv.$class-prefix}pagination-next {
-  padding-left: cv.getVar("pagination-nav-padding-left");
-  padding-right: cv.getVar("pagination-nav-padding-right");
+  padding-inline-start: cv.getVar("pagination-nav-padding-left");
+  padding-inline-end: cv.getVar("pagination-nav-padding-right");
   white-space: nowrap;
 }
 
@@ -329,8 +329,8 @@ $pagination-shadow-inset: inset 0 0.0625em 0.125em
   .#{iv.$class-prefix}pagination-next,
   .#{iv.$class-prefix}pagination-link,
   .#{iv.$class-prefix}pagination-ellipsis {
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
   }
 
   .#{iv.$class-prefix}pagination-previous {
@@ -343,8 +343,8 @@ $pagination-shadow-inset: inset 0 0.0625em 0.125em
 
   .#{iv.$class-prefix}pagination {
     justify-content: space-between;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
 
     &.#{iv.$class-prefix}is-centered {
       .#{iv.$class-prefix}pagination-previous {

@@ -91,36 +91,38 @@ $modal-breakpoint: iv.$tablet !default;
 
 .#{iv.$class-prefix}modal-content,
 .#{iv.$class-prefix}modal-card {
-  margin: 0 cv.getVar("modal-content-margin-mobile");
-  max-height: calc(100vh - #{cv.getVar("modal-content-spacing-mobile")});
+  margin-block: 0;
+  margin-inline: cv.getVar("modal-content-margin-mobile");
+  max-block-size: calc(100vh - #{cv.getVar("modal-content-spacing-mobile")});
   overflow: auto;
   position: relative;
-  width: 100%;
+  inline-size: 100%;
 
   // Responsiveness
   @include mx.from($modal-breakpoint) {
-    margin: 0 auto;
-    max-height: calc(100vh - #{cv.getVar("modal-content-spacing-tablet")});
-    width: cv.getVar("modal-content-width");
+    margin-block: 0;
+    margin-inline: auto;
+    max-block-size: calc(100vh - #{cv.getVar("modal-content-spacing-tablet")});
+    inline-size: cv.getVar("modal-content-width");
   }
 }
 
 .#{iv.$class-prefix}modal-close {
   @extend %delete;
   background: none;
-  height: cv.getVar("modal-close-dimensions");
+  block-size: cv.getVar("modal-close-dimensions");
   inset-inline-end: cv.getVar("modal-close-right");
   position: fixed;
-  top: cv.getVar("modal-close-top");
-  width: cv.getVar("modal-close-dimensions");
+  inset-block-start: cv.getVar("modal-close-top");
+  inline-size: cv.getVar("modal-close-dimensions");
 }
 
 .#{iv.$class-prefix}modal-card {
   display: flex;
   flex-direction: column;
-  max-height: calc(100vh - #{cv.getVar("modal-card-spacing")});
+  max-block-size: calc(100vh - #{cv.getVar("modal-card-spacing")});
   overflow: hidden;
-  overflow-y: visible;
+  overflow-block: visible;
 }
 
 .#{iv.$class-prefix}modal-card-head,

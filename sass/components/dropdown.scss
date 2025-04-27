@@ -76,17 +76,17 @@ $dropdown-divider-background-color: cv.getVar("border-weak") !default;
 
   &.#{iv.$class-prefix}is-right {
     .#{iv.$class-prefix}dropdown-menu {
-      left: auto;
-      right: 0;
+      inset-inline-start: auto;
+      inset-inline-end: 0;
     }
   }
 
   &.#{iv.$class-prefix}is-up {
     .#{iv.$class-prefix}dropdown-menu {
-      bottom: 100%;
-      padding-bottom: cv.getVar("dropdown-content-offset");
-      padding-top: initial;
-      top: auto;
+      inset-block-end: 100%;
+      padding-block-end: cv.getVar("dropdown-content-offset");
+      padding-block-start: initial;
+      inset-block-start: auto;
     }
   }
 }
@@ -94,10 +94,10 @@ $dropdown-divider-background-color: cv.getVar("border-weak") !default;
 .#{iv.$class-prefix}dropdown-menu {
   display: none;
   @include mx.ltr-position(0, false);
-  min-width: cv.getVar("dropdown-menu-min-width");
-  padding-top: cv.getVar("dropdown-content-offset");
+  min-inline-size: cv.getVar("dropdown-menu-min-width");
+  padding-block-start: cv.getVar("dropdown-content-offset");
   position: absolute;
-  top: 100%;
+  inset-block-start: 100%;
   z-index: cv.getVar("dropdown-content-z");
 }
 
@@ -105,8 +105,8 @@ $dropdown-divider-background-color: cv.getVar("border-weak") !default;
   background-color: cv.getVar("dropdown-content-background-color");
   border-radius: cv.getVar("dropdown-content-radius");
   box-shadow: cv.getVar("dropdown-content-shadow");
-  padding-bottom: cv.getVar("dropdown-content-padding-bottom");
-  padding-top: cv.getVar("dropdown-content-padding-top");
+  padding-block-end: cv.getVar("dropdown-content-padding-bottom");
+  padding-block-start: cv.getVar("dropdown-content-padding-top");
 }
 
 .#{iv.$class-prefix}dropdown-item {
@@ -118,7 +118,8 @@ $dropdown-divider-background-color: cv.getVar("border-weak") !default;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
-  padding: 0.375rem 1rem;
+  padding-block: 0.375rem;
+  padding-inline: 1rem;
 }
 
 a.#{iv.$class-prefix}dropdown-item,
@@ -135,7 +136,7 @@ button.#{iv.$class-prefix}dropdown-item {
   padding-inline-end: 3rem;
   text-align: inherit;
   white-space: nowrap;
-  width: 100%;
+  inline-size: 100%;
 
   &:hover {
     @include cv.register-vars(
@@ -183,6 +184,7 @@ button.#{iv.$class-prefix}dropdown-item {
   background-color: cv.getVar("dropdown-divider-background-color");
   border: none;
   display: block;
-  height: 1px;
-  margin: 0.5rem 0;
+  block-size: 1px;
+  margin-block: 0.5rem;
+  margin-inline: 0;
 }

@@ -72,25 +72,25 @@ $tabs-toggle-link-active-color: cv.getVar("link-invert") !default;
   font-size: cv.getVar("size-normal");
   justify-content: space-between;
   overflow: hidden;
-  overflow-x: auto;
+  overflow-inline: auto;
   white-space: nowrap;
 
   a {
     align-items: center;
-    border-bottom-color: cv.getVar("tabs-border-bottom-color");
-    border-bottom-style: cv.getVar("tabs-border-bottom-style");
-    border-bottom-width: cv.getVar("tabs-border-bottom-width");
+    border-block-end-color: cv.getVar("tabs-border-bottom-color");
+    border-block-end-style: cv.getVar("tabs-border-bottom-style");
+    border-block-end-width: cv.getVar("tabs-border-bottom-width");
     color: cv.getVar("tabs-link-color");
     display: flex;
     justify-content: center;
-    margin-bottom: calc(-1 * #{cv.getVar("tabs-border-bottom-width")});
+    margin-block-end: calc(-1 * #{cv.getVar("tabs-border-bottom-width")});
     padding: cv.getVar("tabs-link-padding");
     transition-duration: cv.getVar("duration");
     transition-property: background-color, border-color, color;
     vertical-align: top;
 
     &:hover {
-      border-bottom-color: cv.getVar("tabs-link-hover-border-bottom-color");
+      border-block-end-color: cv.getVar("tabs-link-hover-border-bottom-color");
       color: cv.getVar("tabs-link-hover-color");
     }
   }
@@ -100,7 +100,7 @@ $tabs-toggle-link-active-color: cv.getVar("link-invert") !default;
 
     &.#{iv.$class-prefix}is-active {
       a {
-        border-bottom-color: cv.getVar("tabs-link-active-border-bottom-color");
+        border-block-end-color: cv.getVar("tabs-link-active-border-bottom-color");
         color: cv.getVar("tabs-link-active-color");
       }
     }
@@ -108,28 +108,28 @@ $tabs-toggle-link-active-color: cv.getVar("link-invert") !default;
 
   ul {
     align-items: center;
-    border-bottom-color: cv.getVar("tabs-border-bottom-color");
-    border-bottom-style: cv.getVar("tabs-border-bottom-style");
-    border-bottom-width: cv.getVar("tabs-border-bottom-width");
+    border-block-end-color: cv.getVar("tabs-border-bottom-color");
+    border-block-end-style: cv.getVar("tabs-border-bottom-style");
+    border-block-end-width: cv.getVar("tabs-border-bottom-width");
     display: flex;
     flex-grow: 1;
     flex-shrink: 0;
     justify-content: flex-start;
 
     &.#{iv.$class-prefix}is-left {
-      padding-right: 0.75em;
+      padding-inline-end: 0.75em;
     }
 
     &.#{iv.$class-prefix}is-center {
       flex: none;
       justify-content: center;
-      padding-left: 0.75em;
-      padding-right: 0.75em;
+      padding-inline-start: 0.75em;
+      padding-inline-end: 0.75em;
     }
 
     &.#{iv.$class-prefix}is-right {
       justify-content: flex-end;
-      padding-left: 0.75em;
+      padding-inline-start: 0.75em;
     }
   }
 
@@ -165,7 +165,7 @@ $tabs-toggle-link-active-color: cv.getVar("link-invert") !default;
 
       &:hover {
         background-color: cv.getVar("tabs-boxed-link-hover-background-color");
-        border-bottom-color: cv.getVar(
+        border-block-end-color: cv.getVar(
           "tabs-boxed-link-hover-border-bottom-color"
         );
       }
@@ -178,7 +178,7 @@ $tabs-toggle-link-active-color: cv.getVar("link-invert") !default;
             "tabs-boxed-link-active-background-color"
           );
           border-color: cv.getVar("tabs-boxed-link-active-border-color");
-          border-bottom-color: cv.getVar(
+          border-block-end-color: cv.getVar(
             "tabs-boxed-link-active-border-bottom-color"
           ) !important;
         }
@@ -198,7 +198,7 @@ $tabs-toggle-link-active-color: cv.getVar("link-invert") !default;
       border-color: cv.getVar("tabs-toggle-link-border-color");
       border-style: cv.getVar("tabs-toggle-link-border-style");
       border-width: cv.getVar("tabs-toggle-link-border-width");
-      margin-bottom: 0;
+      margin-block-end: 0;
       position: relative;
 
       &:hover {
@@ -238,7 +238,7 @@ $tabs-toggle-link-active-color: cv.getVar("link-invert") !default;
     }
 
     ul {
-      border-bottom: none;
+      border-block-end: none;
     }
 
     &.#{iv.$class-prefix}is-toggle-rounded {
