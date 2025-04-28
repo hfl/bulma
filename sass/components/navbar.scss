@@ -719,7 +719,7 @@ a.#{iv.$class-prefix}navbar-item,
       display: block;
       opacity: 0;
       pointer-events: none;
-      top: calc(100% + (#{cv.getVar("navbar-dropdown-offset")}));
+      inset-block-start: calc(100% + (#{cv.getVar("navbar-dropdown-offset")}));
       transform: translateY(-5px);
       transition-duration: cv.getVar("duration");
       transition-property: opacity, transform;

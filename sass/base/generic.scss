@@ -241,7 +241,7 @@ table {
     color: cv.getVar("text-strong");
   }
 }
-
+// Writing Mode for Mongolian
 html[lang^="mn-Mong"] {
   writing-mode: vertical-lr;
 }

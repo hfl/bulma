@@ -196,7 +196,7 @@ $table-colors: dv.$colors !default;
       &:last-child {
         td,
         th {
-          border-bottom-width: 1px;
+          border-block-end-width: 1px;
         }
       }
     }

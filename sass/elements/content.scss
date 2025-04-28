@@ -206,7 +206,7 @@ $content-table-foot-cell-color: #{cv.getVar("text-strong")} !default;
 
   pre {
     @include mx.overflow-touch;
-    overflow-x: auto;
+    overflow-inline: auto;
     padding: cv.getVar("content-pre-padding");
     white-space: pre;
     word-wrap: normal;
