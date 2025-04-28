@@ -196,10 +196,10 @@ strong {
   color: cv.getVar("strong-color");
   font-weight: cv.getVar("strong-weight");
 }
-//有问题，暂不改
+
 svg {
-  height: auto;
-  width: auto;
+  inline-size: auto;
+  block-size: auto;
 }
 
 // Block

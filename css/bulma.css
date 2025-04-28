@@ -3056,8 +3056,8 @@ strong {
 }
 
 svg {
-  height: auto;
-  width: auto;
+  inline-size: auto;
+  block-size: auto;
 }
 
 fieldset {
@@ -3113,25 +3113,25 @@ html[lang^=mn-Mong] {
 /* Bulma Elements */
 .navbar-link:not(.is-arrowless)::after, .select:not(.is-multiple):not(.is-loading)::after {
   border: 0.125em solid var(--bulma-arrow-color);
-  border-right: 0;
-  border-top: 0;
+  border-inline-end: 0;
+  border-block-start: 0;
   content: " ";
   display: block;
-  height: 0.625em;
-  margin-top: -0.4375em;
+  block-size: 0.625em;
+  margin-block-start: -0.4375em;
   pointer-events: none;
   position: absolute;
-  top: 50%;
+  inset-block-start: 50%;
   transform: rotate(-45deg);
   transform-origin: center;
   transition-duration: var(--bulma-duration);
   transition-property: border-color;
-  width: 0.625em;
+  inline-size: 0.625em;
 }
 
 .skeleton-block:not(:last-child), .media:not(:last-child), .level:not(:last-child), .fixed-grid:not(:last-child), .grid:not(:last-child), .tabs:not(:last-child), .pagination:not(:last-child), .message:not(:last-child), .card:not(:last-child), .breadcrumb:not(:last-child), .field:not(:last-child), .file:not(:last-child), .title:not(:last-child),
 .subtitle:not(:last-child), .tags:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .progress:not(:last-child), .notification:not(:last-child), .content:not(:last-child), .buttons:not(:last-child), .box:not(:last-child), .block:not(:last-child) {
-  margin-bottom: var(--bulma-block-spacing);
+  margin-block-end: var(--bulma-block-spacing);
 }
 
 .pagination-previous,
@@ -3214,33 +3214,33 @@ fieldset[disabled] .file-name, fieldset[disabled] .select select, .select fields
   flex-grow: 0;
   flex-shrink: 0;
   font-size: 1em;
-  height: var(--bulma-delete-dimensions);
-  max-height: var(--bulma-delete-dimensions);
-  max-width: var(--bulma-delete-dimensions);
-  min-height: var(--bulma-delete-dimensions);
-  min-width: var(--bulma-delete-dimensions);
+  block-size: var(--bulma-delete-dimensions);
+  max-block-size: var(--bulma-delete-dimensions);
+  max-inline-size: var(--bulma-delete-dimensions);
+  min-block-size: var(--bulma-delete-dimensions);
+  min-inline-size: var(--bulma-delete-dimensions);
   outline: none;
   position: relative;
   vertical-align: top;
-  width: var(--bulma-delete-dimensions);
+  inline-size: var(--bulma-delete-dimensions);
 }
 .modal-close::before, .modal-close::after {
   background-color: var(--bulma-delete-color);
   content: "";
   display: block;
-  left: 50%;
+  inset-inline-start: 50%;
   position: absolute;
-  top: 50%;
+  inset-block-start: 50%;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
   transform-origin: center center;
 }
 .modal-close::before {
-  height: 2px;
-  width: 50%;
+  block-size: 2px;
+  inline-size: 50%;
 }
 .modal-close::after {
-  height: 50%;
-  width: 2px;
+  block-size: 50%;
+  inline-size: 2px;
 }
 .modal-close:hover, .modal-close:focus {
   --bulma-delete-background-alpha: 0.4;
@@ -3262,21 +3262,21 @@ fieldset[disabled] .file-name, fieldset[disabled] .select select, .select fields
   animation: spinAround 500ms infinite linear;
   border: 2px solid var(--bulma-loading-color);
   border-radius: var(--bulma-radius-rounded);
-  border-right-color: transparent;
-  border-top-color: transparent;
+  border-inline-end-color: transparent;
+  border-block-start-color: transparent;
   content: "";
   display: block;
-  height: 1em;
+  block-size: 1em;
   position: relative;
-  width: 1em;
+  inline-size: 1em;
 }
 
 .is-overlay, .hero-video, .modal, .modal-background {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
 }
 
 .navbar-burger, .menu-list a,
@@ -3853,8 +3853,8 @@ a.box:active {
 }
 .button.is-loading::after {
   position: absolute;
-  left: calc(50% - 1em * 0.5);
-  top: calc(50% - 1em * 0.5);
+  inset-inline-start: calc(50% - 1em * 0.5);
+  inset-block-start: calc(50% - 1em * 0.5);
   position: absolute !important;
 }
 .button.is-static {
@@ -4157,33 +4157,33 @@ a.box:active {
   flex-grow: 0;
   flex-shrink: 0;
   font-size: 1em;
-  height: var(--bulma-delete-dimensions);
-  max-height: var(--bulma-delete-dimensions);
-  max-width: var(--bulma-delete-dimensions);
-  min-height: var(--bulma-delete-dimensions);
-  min-width: var(--bulma-delete-dimensions);
+  block-size: var(--bulma-delete-dimensions);
+  max-block-size: var(--bulma-delete-dimensions);
+  max-inline-size: var(--bulma-delete-dimensions);
+  min-block-size: var(--bulma-delete-dimensions);
+  min-inline-size: var(--bulma-delete-dimensions);
   outline: none;
   position: relative;
   vertical-align: top;
-  width: var(--bulma-delete-dimensions);
+  inline-size: var(--bulma-delete-dimensions);
 }
 .delete::before, .delete::after {
   background-color: var(--bulma-delete-color);
   content: "";
   display: block;
-  left: 50%;
+  inset-inline-start: 50%;
   position: absolute;
-  top: 50%;
+  inset-block-start: 50%;
   transform: translateX(-50%) translateY(-50%) rotate(45deg);
   transform-origin: center center;
 }
 .delete::before {
-  height: 2px;
-  width: 50%;
+  block-size: 2px;
+  inline-size: 50%;
 }
 .delete::after {
-  height: 50%;
-  width: 2px;
+  block-size: 50%;
+  inline-size: 2px;
 }
 .delete:hover, .delete:focus {
   --bulma-delete-background-alpha: 0.4;
@@ -4268,11 +4268,11 @@ div.icon-text {
 }
 .image.is-square img,
 .image.is-square .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4284,11 +4284,11 @@ div.icon-text {
 }
 .image.is-1by1 img,
 .image.is-1by1 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4297,11 +4297,11 @@ div.icon-text {
 }
 .image.is-5by4 img,
 .image.is-5by4 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4310,11 +4310,11 @@ div.icon-text {
 }
 .image.is-4by3 img,
 .image.is-4by3 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4323,11 +4323,11 @@ div.icon-text {
 }
 .image.is-3by2 img,
 .image.is-3by2 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4336,11 +4336,11 @@ div.icon-text {
 }
 .image.is-5by3 img,
 .image.is-5by3 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4349,11 +4349,11 @@ div.icon-text {
 }
 .image.is-16by9 img,
 .image.is-16by9 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4362,11 +4362,11 @@ div.icon-text {
 }
 .image.is-2by1 img,
 .image.is-2by1 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4375,11 +4375,11 @@ div.icon-text {
 }
 .image.is-3by1 img,
 .image.is-3by1 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4388,11 +4388,11 @@ div.icon-text {
 }
 .image.is-4by5 img,
 .image.is-4by5 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4401,11 +4401,11 @@ div.icon-text {
 }
 .image.is-3by4 img,
 .image.is-3by4 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4414,11 +4414,11 @@ div.icon-text {
 }
 .image.is-2by3 img,
 .image.is-2by3 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4427,11 +4427,11 @@ div.icon-text {
 }
 .image.is-3by5 img,
 .image.is-3by5 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4440,11 +4440,11 @@ div.icon-text {
 }
 .image.is-9by16 img,
 .image.is-9by16 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4453,11 +4453,11 @@ div.icon-text {
 }
 .image.is-1by2 img,
 .image.is-1by2 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -4466,11 +4466,11 @@ div.icon-text {
 }
 .image.is-1by3 img,
 .image.is-1by3 .has-ratio {
-  bottom: 0;
-  left: 0;
+  inset-block-end: 0;
+  inset-inline-start: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  inset-inline-end: 0;
+  inset-block-start: 0;
   block-size: 100%;
   inline-size: 100%;
 }
@@ -7505,32 +7505,32 @@ body.has-navbar-fixed-bottom {
   display: inline-flex;
   flex-direction: column;
   flex-shrink: 0;
-  height: 2.5rem;
+  block-size: 2.5rem;
   justify-content: center;
   position: relative;
   vertical-align: top;
-  width: 2.5rem;
+  inline-size: 2.5rem;
 }
 .navbar-burger span {
   background-color: currentColor;
   display: block;
-  height: var(--bulma-burger-item-height);
-  left: calc(50% - (var(--bulma-burger-item-width)) / 2);
+  block-size: var(--bulma-burger-item-height);
+  inset-inline-start: calc(50% - (var(--bulma-burger-item-width)) / 2);
   position: absolute;
   transform-origin: center;
   transition-duration: var(--bulma-duration);
   transition-property: background-color, color, opacity, transform;
   transition-timing-function: var(--bulma-easing);
-  width: var(--bulma-burger-item-width);
+  inline-size: var(--bulma-burger-item-width);
 }
 .navbar-burger span:nth-child(1), .navbar-burger span:nth-child(2) {
-  top: calc(50% - (var(--bulma-burger-item-height)) / 2);
+  inset-block-start: calc(50% - (var(--bulma-burger-item-height)) / 2);
 }
 .navbar-burger span:nth-child(3) {
-  bottom: calc(50% + var(--bulma-burger-gap));
+  inset-block-end: calc(50% + var(--bulma-burger-gap));
 }
 .navbar-burger span:nth-child(4) {
-  top: calc(50% + var(--bulma-burger-gap));
+  inset-block-start: calc(50% + var(--bulma-burger-gap));
 }
 .navbar-burger:hover {
   background-color: hsla(var(--bulma-burger-h), var(--bulma-burger-s), var(--bulma-burger-l), 0.1);
@@ -8309,11 +8309,11 @@ label.panel-block:hover {
 .panel-icon {
   display: inline-block;
   font-size: 1em;
-  height: 1em;
+  block-size: 1em;
   line-height: 1em;
   text-align: center;
   vertical-align: top;
-  width: 1em;
+  inline-size: 1em;
   color: var(--bulma-panel-icon-color);
   margin-inline-end: 0.75em;
 }
