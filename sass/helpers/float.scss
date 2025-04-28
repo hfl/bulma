@@ -7,19 +7,19 @@
 
 .#{iv.$class-prefix}#{iv.$helpers-prefix}float-left,
 .#{iv.$class-prefix}#{iv.$helpers-prefix}pulled-left {
-  float: left !important;
+  float: inline-start !important;
 }
 
 .#{iv.$class-prefix}#{iv.$helpers-prefix}float-right,
 .#{iv.$class-prefix}#{iv.$helpers-prefix}pulled-right {
-  float: right !important;
+  float: inline-end !important;
 }
 
 .#{iv.$class-prefix}#{iv.$helpers-prefix}float-none {
   float: none !important;
 }
 
-$clears: both left none right;
+$clears: both inline-start none inline-end;
 
 @each $clear in $clears {
   .#{iv.$class-prefix}#{iv.$helpers-prefix}clear-#{$clear} {

@@ -81,12 +81,12 @@ $displays: block flex inline inline-block inline-flex grid;
 .#{iv.$class-prefix}#{iv.$helpers-prefix}sr-only {
   border: none !important;
   clip: rect(0, 0, 0, 0) !important;
-  height: 0.01em !important;
+  block-size: 0.01em !important;
   overflow: hidden !important;
   padding: 0 !important;
   position: absolute !important;
   white-space: nowrap !important;
-  width: 0.01em !important;
+  inline-size: 0.01em !important;
 }
 
 @include mx.mobile {
