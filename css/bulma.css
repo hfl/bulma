@@ -5669,7 +5669,7 @@ button.tag:active,
   max-inline-size: 100%;
   min-inline-size: 100%;
   padding: var(--bulma-textarea-padding);
-  resize: vertical;
+  resize: block;
 }
 .textarea:not([rows]) {
   max-block-size: var(--bulma-textarea-max-height);
@@ -8286,7 +8286,7 @@ a.navbar-item.is-active, a.navbar-item.is-selected,
   flex-wrap: wrap;
 }
 .panel-block.is-active {
-  border-left-color: var(--bulma-panel-block-active-border-left-color);
+  border-inline-start-color: var(--bulma-panel-block-active-border-left-color);
   color: var(--bulma-panel-block-active-color);
 }
 .panel-block.is-active .panel-icon {

@@ -96,7 +96,7 @@ $textarea-colors: shared.$form-colors !default;
   max-inline-size: 100%;
   min-inline-size: 100%;
   padding: cv.getVar("textarea-padding");
-  resize: vertical;
+  resize: block;
 
   &:not([rows]) {
     max-block-size: cv.getVar("textarea-max-height");
